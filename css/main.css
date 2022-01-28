@@ -38,6 +38,10 @@ nav ul{
       padding: 0rem 1rem;
   }
 
+  .header span{
+      color: var(--primary-color);
+  }
+
   .content a{
       text-decoration: none;
   }
