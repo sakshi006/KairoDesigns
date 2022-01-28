@@ -1,0 +1,41 @@
+.page-content {
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 0.8rem;
+}
+
+.side-nav {
+  /* background-color: #8a2be2; */
+  flex-basis: 11rem;
+  border-right: 1.5px solid var(--primary-color);
+}
+
+.side-nav ul li:hover {
+  font-weight: bold;
+}
+
+.main-content {
+  /* background-color: chocolate; */
+  flex-grow: 1;
+  padding: 0rem 1rem;
+  margin: 0rem 1rem;
+  max-width: 40rem;
+}
+
+.side-nav ul li {
+  list-style-type: none;
+  line-height: 2rem;
+}
+
+.code-example-block{
+    margin: 1rem;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.code-example{
+    height: 12rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+}
