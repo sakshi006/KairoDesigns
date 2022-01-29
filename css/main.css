@@ -43,6 +43,7 @@ nav ul{
   }
 
   .content a{
+      font-size: large;
       text-decoration: none;
       color: black;
   }
