@@ -8,19 +8,7 @@
     border-radius: 50%;
 }
 
-h1,h4{
-    color: var(--primary-color);
-    margin-bottom: 0.7rem;
-    border-bottom: 2px dashed var(--secondary-color);
-}
 
-.description{
-    margin: 1.5rem 0rem;
-}
-
-.section{
-    margin: 2rem 0rem;
-}
 
 .img-small{
     width: 2.6rem;
