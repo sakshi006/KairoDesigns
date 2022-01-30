@@ -3,6 +3,7 @@
   height: 5.2rem;
   border: 1.1px solid black;
   margin: 2rem 1.5rem;
+  object-fit: cover;
 }
 .type-one{
     border-radius: 50%;
