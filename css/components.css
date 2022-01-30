@@ -40,6 +40,7 @@ h1,h4{
 .side-nav ul li {
   list-style-type: none;
   line-height: 3rem;
+  
 }
 
 .code-example-block{
@@ -47,4 +48,3 @@ h1,h4{
     text-align: center;
     opacity: 0.8;
 }
-
