@@ -82,6 +82,7 @@ iframe{
     height: 4.2rem;
     border: 1.1px solid black;
     margin: -1rem 1.5rem;
+    object-fit:cover;
   }
   .type-one{
       margin-top: 1rem;
