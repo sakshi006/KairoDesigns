@@ -22,7 +22,6 @@ body{
       align-items: center;
       padding: 1.5rem;
       margin: 1.5rem;
-      font-size: 0.8rem;
   }
   .logo a{
       color: var(--primary-color) !important;
@@ -43,6 +42,7 @@ nav ul{
   }
 
   .content a{
+      font-size: large;
       text-decoration: none;
       color: black;
   }
@@ -59,9 +59,9 @@ nav ul{
       margin: auto;
       width: 60%;
       padding: 1rem;
-      line-height: 2rem;
+      line-height: 3rem;
       margin-top: 3rem;
-      font-size: 0.9rem;
+      font-size: 2rem;
   }
 .main_btn{
     margin-top: 2rem;
