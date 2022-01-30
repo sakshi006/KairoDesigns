@@ -1,0 +1,91 @@
+
+span{
+    font-size: 0.7rem;
+    color: black;
+}
+button{
+    background-color: var(--primary-color) ;
+    border: none;
+    padding: 0.5rem 0.9rem;
+    border-radius: 0.5rem;
+}
+.child{
+    margin: 1rem;
+    position: relative;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.badge{
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    position: absolute;
+    border: 1px solid var(--alternate-color);
+    box-shadow: 0.1rem 0.1rem 0.2rem 0rem var(--primary-color);
+}
+/* ONE */
+.one{
+  padding: 0.2rem 0.4rem;
+  left: 8.9rem;
+  top: -0.4rem;
+}
+
+/* TWO */
+.two{
+    padding: 0.6rem 0.8rem;
+    left: 11.5rem;
+    top: -1.2rem;
+  }
+
+/* THREE */
+.three{
+    padding: 0.3rem 0.6rem;
+    left: 20rem;
+    top: -0.8rem;
+
+}
+
+
+/* FOUR */
+.four{
+    padding: 0.3rem 0.6rem;
+    top: -0.6rem;
+    left: 19rem;
+}
+
+/* FIVE */
+.five{
+    padding: 0.3rem;
+    left: 10.9rem;
+    top:-0.4rem;
+}
+
+.six{
+    padding: 0.5rem;
+    left: 15rem;
+    top:0.7rem;
+}
+
+i{
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+
+iframe{
+    margin: 2rem 0rem;
+    width: 42rem !important;
+}
+
+.img {
+    width: 4rem;
+    height: 4.2rem;
+    border: 1.1px solid black;
+    margin: -1rem 1.5rem;
+    object-fit:cover;
+  }
+  .type-one{
+      margin-top: 1rem;
+      border-radius: 50%;
+  }
+  

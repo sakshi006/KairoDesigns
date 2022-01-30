@@ -1,0 +1,50 @@
+.page-content {
+  display: flex;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+
+.side-nav {
+  /* background-color: #8a2be2; */
+  flex-basis: 12rem;
+  border-right: 1.5px solid var(--primary-color);
+}
+
+.side-nav ul li:hover {
+  font-weight: bold;
+}
+
+.main-content {
+  /* background-color: chocolate; */
+  flex-grow: 1;
+  padding: 0rem 1rem;
+  margin: 0rem 1rem;
+  max-width: 60rem;
+}
+
+h1,h4{
+  color: var(--primary-color);
+  margin-bottom: 0.7rem;
+  border-bottom: 2px dashed var(--secondary-color);
+}
+
+.description{
+  margin: 1.5rem 0rem;
+}
+
+.section{
+  margin: 2rem 0rem;
+}
+
+.side-nav ul li {
+  list-style-type: none;
+  line-height: 3rem;
+  
+}
+
+.code-example-block{
+    margin: 1rem;
+    text-align: center;
+    opacity: 0.8;
+}

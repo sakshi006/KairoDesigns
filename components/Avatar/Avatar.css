@@ -1,0 +1,21 @@
+.img {
+  width: 5rem;
+  height: 5.2rem;
+  border: 1.1px solid black;
+  margin: 2rem 1.5rem;
+    object-fit: cover;
+}
+.type-one{
+    border-radius: 50%;
+}
+
+
+
+.img-small{
+    width: 3.6rem;
+    height: 3.8rem;
+}
+
+iframe{
+  margin: 2rem 0rem;
+}
