@@ -5,6 +5,13 @@
   font-size: 1.3rem;
 }
 
+#active{
+  color: var(--alternate-color);
+  font-weight: bolder;
+  font-size: larger;
+  text-shadow: 3px 5px 4px var(--alternate-color);
+}
+
 .side-nav {
   /* background-color: #8a2be2; */
   flex-basis: 12rem;
