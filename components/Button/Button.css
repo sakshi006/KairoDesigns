@@ -74,7 +74,7 @@ background-color: #630000;
 .disabled{
  background-color: rgb(221, 216, 216);
  box-shadow: none;
-
+ cursor: not-allowed;
 }
 
 .disabled:hover{
