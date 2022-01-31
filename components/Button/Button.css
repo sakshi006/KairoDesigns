@@ -1,0 +1,83 @@
+.button{
+    text-align: center;
+    
+    margin: 4rem 0rem;
+}
+
+.btn{
+    width: 5rem;
+    padding: 0.6rem;
+    color: black;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.btns{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+    margin: 0rem 2rem;
+    font-size: larger;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.icon{
+    border: none;
+    margin: 0rem 2rem;
+    font-size: xx-large;
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.icon:hover{
+    opacity: 0.7;;
+}
+
+.icon .fa-trash{
+    color: #0e103d;
+}
+.icon .fa-home{
+    color: #a5668b;
+}
+.icon .fa-bookmark{
+ color: #a8b4a5;
+}
+.icon .fa-heart{
+    color: #630000;
+}
+
+.basic{
+   background-color: #f2d7ee;
+}
+
+.primary{
+background-color: #a5668b;
+}
+
+
+.accent{
+background-color: #630000;
+}
+
+.warn{
+ background-color: #a8b4a5;
+}
+
+
+.dots{
+    background-color: #0e103d;
+}
+
+.disabled{
+ background-color: rgb(221, 216, 216);
+ box-shadow: none;
+ cursor: not-allowed;
+}
+
+.disabled:hover{
+    background-color: rgb(221, 216, 216);
+    color: black;
+}
