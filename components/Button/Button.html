@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/components.css" />
+    <link rel="stylesheet" href="./Button.css" />
+
+    <title>Button</title>
+  </head>
+  <body>
+    <div class="content">
+      <!-- navbar : remains same for all pages -->
+      <nav>
+        <div class="logo"><a href="../../index.html">KairoDesigns</a></div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="../../index.html">Get Started</a></li>
+            <li><a href="../Avatar/Avatar.html">Docs</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="page-content">
+        <!-- sidenav bar : remains same for all components page -->
+        <div class="side-nav">
+          <ul>
+            <li>
+              <a href="../Avatar/Avatar.html">Avatar</a>
+            </li>
+            <li>
+              <a href="../Alert/Alert.html">Alert</a>
+            </li>
+            <li>
+              <a href="../Badges/Badges.html">Badges</a>
+            </li>
+            <li>
+              <a href="../Button/Button.html">Button</a>
+            </li>
+            <li>
+              <a href="../Card/Card.html">Card</a>
+            </li>
+            <li>
+              <a href="../Image/Image.html">Image</a>
+            </li>
+            <li>
+              <a href="../Input/Input.html">Input</a>
+            </li>
+          </ul>
+        </div>
+        <!-- main content: changes acc to selected component -->
+        <div class="main-content">
+          <h1>Buttons</h1>
+          <p class="description">
+            CSS buttons refer to styled HTML buttons that developers customize
+            to match their website designs. You can manipulate the colors, text
+            sizes, padding, and even change styling properties when buttons
+            enter different states.
+            <br />
+            <br />
+          </p>
+
+          <div class="section section--type-one">
+            <h4>Primary Buttons</h4>
+
+            <div class="type-one--button">
+              <div class="button">
+                <button class="btn basic">Basic</button>
+                <button class="btn primary">Primary</button>
+                <button class="btn accent">Accent</button>
+                <button class="btn warn">Warn</button>
+                <button class="btn disabled">Disabled</button>
+              </div>
+              <div class="code-example-block">
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=17px&dsblur=68px&wc=true&wa=true&pv=23px&ph=47px&ln=false&fl=1&fm=Hack&fs=10px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522button%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520%2520basic%2522%253EBasic%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520%2520primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520%2520accent%2522%253EAccent%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520%2520warn%2522%253EWarn%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520%2520disabled%2522%253EDisabled%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                  style="
+                    width: 422px;
+                    height: 296px;
+                    border: 0;
+                    transform: scale(1);
+                    overflow: hidden;
+                  "
+                  sandbox="allow-scripts allow-same-origin"
+                >
+                </iframe>
+              </div>
+</div>
+<h4>Floating Action Buttons</h4>
+<div class="type-one--button">
+              <div class="button">
+                <button class="btns btn basic">
+                  <i class="fas fa-bars"></i>
+                </button>
+                <button class="btns btn primary">
+                  <i class="fas fa-home"></i>
+                </button>
+                <button class="btns btn accent">
+                  <i class="fas fa-plus"></i>
+                </button>
+                <button class="btns btn warn">
+                  <i class="fas fa-heart"></i>
+                </button>
+                <button class="btns btn dots">
+                  <i class="fas fa-ellipsis-v"></i>
+                </button>
+              </div>
+
+              <div class="code-example-block">
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=17px&dsblur=68px&wc=true&wa=true&pv=23px&ph=47px&ln=false&fl=1&fm=Hack&fs=10px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522button%2522%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btns%2520btn%2520basic%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bars%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btns%2520btn%2520primary%2522%253E%253Ci%2520class%253D%2522fas%2520fa-home%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btns%2520btn%2520accent%2522%253E%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btns%2520btn%2520warn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btns%2520btn%2520dots%2522%253E%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                  style="
+                    width: 566px;
+                    height: 186px;
+                    border: 0;
+                    transform: scale(1);
+                    overflow: hidden;
+                  "
+                  sandbox="allow-scripts allow-same-origin"
+                >
+                </iframe>
+              </div>
+</div>  
+<h4>Icon Buttons</h4>
+
+              <div class="button">
+                <button class="icon trash"><i class="fas fa-trash"></i></button>
+                <button class="icon home"><i class="fas fa-home"></i></button>
+                <button class="icon save">
+                  <i class="fas fa-bookmark"></i>
+                </button>
+                <button class="icon heart"><i class="fas fa-heart"></i></button>
+              </div>
+              <div class="code-example-block">
+                <iframe
+                  src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=17px&dsblur=68px&wc=true&wa=true&pv=23px&ph=47px&ln=false&fl=1&fm=Hack&fs=10px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522button%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522icon%2520trash%2522%253E%253Ci%2520class%253D%2522fas%2520fa-trash%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522icon%2520home%2522%253E%253Ci%2520class%253D%2522fas%2520fa-home%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522icon%2520save%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bookmark%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522icon%2520heart%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                  style="
+                    width: 525px;
+                    height: 194px;
+                    border: 0;
+                    transform: scale(1);
+                    overflow: hidden;
+                  "
+                  sandbox="allow-scripts allow-same-origin"
+                >
+                </iframe>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
