@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/components.css" />
+    <link rel="stylesheet" href="./Input.css" />
+
+    <title>Input</title>
+  </head>
+  <body>
+    <div class="content">
+      <!-- navbar : remains same for all pages -->
+      <nav>
+        <div class="logo"><a href="../../index.html">KairoDesigns</a></div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="../../index.html">Get Started</a></li>
+            <li><a href="../Avatar/Avatar.html">Docs</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="page-content">
+        <!-- sidenav bar : remains same for all components page -->
+        <div class="side-nav">
+          <ul>
+            <li>
+              <a href="../Avatar/Avatar.html">Avatar</a>
+            </li>
+            <li>
+              <a href="../Alert/Alert.html">Alert</a>
+            </li>
+            <li>
+              <a href="../Badges/Badges.html">Badges</a>
+            </li>
+            <li>
+              <a href="../Button/Button.html">Button</a>
+            </li>
+            <li>
+              <a href="../Card/Card.html">Card</a>
+            </li>
+            <li>
+              <a href="../Image/Image.html">Image</a>
+            </li>
+            <li>
+              <a id="active" href="../Input/Input.html">Input</a>
+            </li>
+          </ul>
+        </div>
+        <!-- main content: changes acc to selected component -->
+        <div class="main-content">
+          <h1>Inputs</h1>
+          <p class="description">
+            The Input component is a component that is used to get user input in
+            a text field.
+            <br />
+            <br />
+          </p>
+
+          <div class="section section--type-one">
+            <h4>Labelled Inputs</h4>
+            <small
+              >Label Input has a label present at the top of the input field.
+              They can be customized to show error error-message, and change
+              color accordingly.</small
+            >
+            <div class="type-one--input">
+              <label for="basic">UserName : </label>
+              <input
+                placeholder="Enter Username"
+                type="text"
+                id="basic"
+                class="input"
+              />
+            </div>
+            <div class="type-one--input">
+              <label for="basic-password">PassWord : </label>
+              <input
+                placeholder="Enter Password"
+                type="text"
+                id="basic-password"
+                class="input"
+              />
+            </div>
+
+            <div class="code-example-block">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=760&ds=true&dsyoff=0px&dsblur=100px&wc=true&wa=true&pv=37px&ph=86px&ln=false&fl=1&fm=Hack&fs=10px&lh=117%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522type-one--input%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522basic%2522%253EUserName%2520%253A%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520placeholder%253D%2522Enter%2520Username%2522%2520type%253D%2522text%2522id%253D%2522basic%2522%2520class%253D%2522input%2522%252F%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522type-one--input%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522basic-password%2522%253EPassWord%2520%253A%2520%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520placeholder%253D%2522Enter%2520Password%2522%2520type%253D%2522text%2522id%253D%2522basic-password%2522%2520class%253D%2522input%2522%252F%253E%250A%2520%253C%252Fdiv%253E"
+                style="
+                  width: 770px;
+                  height: 250px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <div class="section section--type-two">
+            <h4>Validation Inputs</h4>
+            <small
+              >Validation Inputs provide validation about being a
+              success/failure/warning based on some predefined
+              conditions.</small
+            >
+            <div class="type-error--input two">
+              <small>Error</small>
+              <input
+                type="text"
+                id="valid-one"
+                class="input error"
+                placeholder="Hello World"
+              />
+              <small>Incorrect Entry</small>
+            </div>
+            <div class="type-success--input two">
+              <input
+                type="text"
+                id="valid-two"
+                class="input success"
+                placeholder="Hello World"
+              />
+              <small>Successful</small>
+            </div>
+
+            <div class="code-example-block">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=760&ds=true&dsyoff=0px&dsblur=100px&wc=true&wa=true&pv=37px&ph=86px&ln=false&fl=1&fm=Hack&fs=10px&lh=117%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522type-error--input%2520two%2522%253E%250A%2520%2520%253Csmall%253EError%253C%252Fsmall%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522valid-one%2522class%253D%2522input%2520error%2522%2520placeholder%253D%2522Hello%2520World%2522%2520%252F%253E%250A%2520%2520%253Csmall%253EIncorrect%2520Entry%253C%252Fsmall%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522type-success--input%2520two%2522%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522valid-two%2522%2520class%253D%2522input%2520success%2522%2520placeholder%253D%2522Hello%2520World%2522%2520%252F%253E%250A%2520%2520%253Csmall%253ESuccessful%253C%252Fsmall%253E%250A%253C%252Fdiv%253E"
+                style="
+                  width: 728px;
+                  height: 270px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
+
+          <div class="section section--type-three">
+            <h4>Input with Icons</h4>
+            <div class="type-three--input">
+              <i class="fa fa-user icon"></i>
+              <input type="text" placeholder="Your Name" class="input person" />
+            </div>
+            <div class="type-three--input">
+              <i class="fas fa-briefcase"></i>
+              <input
+                type="text"
+                class="input job"
+                placeholder="Where You Work?"
+              />
+            </div>
+            <div class="type-three--input">
+              <i class="fas fa-search"></i>
+              <input
+                type="text"
+                class="input search"
+                placeholder="Search for Products"
+              />
+            </div>
+
+            <div class="code-example-block">
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=760&ds=true&dsyoff=0px&dsblur=100px&wc=true&wa=true&pv=37px&ph=86px&ln=false&fl=1&fm=Hack&fs=10px&lh=117%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522type-three--input%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-user%2520icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522Your%2520Name%2522%2520class%253D%2522input%2520person%2522%2520%252F%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522type-three--input%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-briefcase%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2520job%2522%2520placeholder%253D%2522Where%2520You%2520Work%253F%2522%2520%252F%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522type-three--input%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-search%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input%2520search%2522%2520placeholder%253D%2522Search%2520for%2520Products%2522%2520%252F%253E%250A%2520%253C%252Fdiv%253E"
+                style="width: 674px; height: 320px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+          </div>
+
+          <div class="section section--type-four">
+            <h4>Textareas</h4>
+            <div class="type-four--input">
+              <textarea
+                type="text"
+                placeholder="Enter Your Message..."
+                class="input person"
+              ></textarea>
+              <div class="text-icons">
+                <i class="fas fa-smile"></i><i class="fas fa-paper-plane"></i>
+              </div>
+            </div>
+
+            <div class="code-example-block"><iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=760&ds=true&dsyoff=0px&dsblur=100px&wc=true&wa=true&pv=37px&ph=86px&ln=false&fl=1&fm=Hack&fs=10px&lh=117%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522type-four--input%2522%253E%250A%2520%2520%2520%253Ctextarea%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520Your%2520Message...%2522%2520class%253D%2522input%2520person%2522%253E%250A%2520%2520%2520%253C%252Ftextarea%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522text-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-smile%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+                style="width: 687px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
