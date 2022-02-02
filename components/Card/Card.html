@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/components.css" />
+    <link rel="stylesheet" href="./Card.css" />
+
+    <title>Cards</title>
+  </head>
+  <body>
+    <div class="content">
+      <!-- navbar : remains same for all pages -->
+      <nav>
+        <div class="logo"><a href="../../index.html">KairoDesigns</a></div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="../../index.html">Get Started</a></li>
+            <li><a href="../Avatar/Avatar.html">Docs</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="page-content">
+        <!-- sidenav bar : remains same for all components page -->
+        <div class="side-nav">
+          <ul>
+            <li>
+              <a href="../Avatar/Avatar.html">Avatar</a>
+            </li>
+            <li>
+              <a href="../Alert/Alert.html">Alert</a>
+            </li>
+            <li>
+              <a href="../Badges/Badges.html">Badges</a>
+            </li>
+            <li>
+              <a href="../Button/Button.html">Button</a>
+            </li>
+            <li>
+              <a id="active" href="../Card/Card.html">Card</a>
+            </li>
+            <li>
+              <a href="../Image/Image.html">Image</a>
+            </li>
+            <li>
+              <a href="../Input/Input.html">Input</a>
+            </li>
+          </ul>
+        </div>
+        <!-- main content: changes acc to selected component -->
+        <div class="main-content">
+          <h1>Cards</h1>
+          <p class="description">
+            CSS cards are great for organizing and enhancing a website's user interface. Each card is uniquely designed to make it easy for users to read the card content. CSS cards are great for organizing and enhancing a website's user interface. Each card is uniquely designed to make it easy for users to read the card content.
+           
+            <br />
+            <br />
+            Cards contain content and actions about a single subject.
+          </p>
+
+          <div class="section section--type-one">
+            <h4>Basic Card with Shadow</h4>
+
+            <div class="type-one--card">
+                <div class="cardcom background">
+                    <div class="card">
+                        <img class="card-image-one" src="../../assets/avatar/card-image.jpg" alt="card-image" />
+                        <article class="card-text-one">
+                           <figcaption>"That's my spot."<figcaption>
+                           <h6>- Sheldon Cooper</h6>
+                           <summary>In an ever-changing world it is a single point of consistency.<summary>
+                        </article>
+                        <footer>
+                            <span>Read</span>
+                            <span>Bookmark</span>
+                            <ul>
+                                <i class="fas fa-heart"></i>
+                                <i class="fas fa-share-alt"></i>
+                                <i class="fas fa-ellipsis-v"></i>
+                            </ul>
+                        </footer>
+                    </div>
+                </div>
+              <div class="code-example-block">
+                <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=760&ds=true&dsyoff=0px&dsblur=100px&wc=true&wa=true&pv=37px&ph=86px&ln=false&fl=1&fm=Hack&fs=10px&lh=117%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522cardcom%2520background%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar%252Fcard-image.jpg%2522%2520alt%253D%2522card-image%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Carticle%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfigcaption%253E%2522That%27s%2520my%2520spot.%2522%253Cfigcaption%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253E-%2520Sheldon%2520Cooper%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csummary%253EIn%2520an%2520ever-changing%2520world%2520it%2520is%2520a%2520single%2520point%2520of%2520consistency.%253Csummary%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Farticle%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cfooter%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253ERead%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EBookmark%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffooter%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+  style="width: 720px; height: 500px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+              
+              </div>
+</div>
+<h4>Horizontal Cards</h4>
+<div class="type-one--card">
+    <div class="cardcom background">
+        <div class="card noshadow">
+           <section>
+            <img class="card-image-two" src="../../assets/avatar/card-image.jpg" alt="card-image" />
+            <article class="card-text-two">
+               <h3>"That's my spot."<h3>
+               <h5>- Sheldon Cooper</h5>
+            </article>
+           </section>
+            <footer>
+                <span>Read</span>
+                <span>Bookmark</span>
+                <ul>
+                    <i class="fas fa-heart"></i>
+                    <i class="fas fa-share-alt"></i>
+                    <i class="fas fa-ellipsis-v"></i>
+                </ul>
+            </footer>
+        </div>
+    </div>
+
+              <div class="code-example-block">
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=760&ds=true&dsyoff=0px&dsblur=100px&wc=true&wa=true&pv=37px&ph=86px&ln=false&fl=1&fm=Hack&fs=10px&lh=117%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520noshadow%2522%253E%250A%2520%2520%253Csection%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image-two%2522%2520src%253D%2522..%252F..%252Fassets%252Favatar%252Fcard-image.jpg%2522%2520alt%253D%2522card-image%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Carticle%2520class%253D%2522card-text-two%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253E%2522That%27s%2520my%2520spot.%2522%253Ch3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253E-%2520Sheldon%2520Cooper%253C%252Fh5%253E%250A%2520%2520%2520%2520%253C%252Farticle%253E%250A%2520%2520%253C%252Fsection%253E%250A%2520%2520%253Cfooter%253E%250A%2520%2520%2520%2520%253Cspan%253ERead%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%253EBookmark%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%253C%252Ffooter%253E%250A%253C%252Fdiv%253E"
+                style="width: 720px; height: 460px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+                </iframe>
+              </div>
+</div>  
+<h4>Icon Buttons</h4>
+
+              <div class="button">
+                <button class="icon trash"><i class="fas fa-trash"></i></button>
+                <button class="icon home"><i class="fas fa-home"></i></button>
+                <button class="icon save">
+                  <i class="fas fa-bookmark"></i>
+                </button>
+                <button class="icon heart"><i class="fas fa-heart"></i></button>
+              </div>
+              <div class="code-example-block">
+               
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
