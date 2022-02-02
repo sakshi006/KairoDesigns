@@ -52,7 +52,7 @@
 }
 
 .type-error--input small{
-    color: red;
+    color: rgb(241, 0, 0);
 }
 
 .type-success--input small{
