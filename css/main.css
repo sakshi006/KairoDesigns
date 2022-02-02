@@ -41,6 +41,11 @@ nav ul{
       color: var(--primary-color);
   }
 
+  .content{
+    display: block;
+    margin: auto;
+    max-width: 90%;
+  }
   .content a{
       font-size: large;
       text-decoration: none;
