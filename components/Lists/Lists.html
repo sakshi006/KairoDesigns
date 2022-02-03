@@ -14,9 +14,9 @@
 
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/components.css" />
-    <link rel="stylesheet" href="./Button.css" />
+    <link rel="stylesheet" href="./Lists.css" />
 
-    <title>Button</title>
+    <title>Lists</title>
   </head>
   <body>
     <div class="content">
@@ -54,7 +54,8 @@
               <a href="../Image/Image.html">Image</a>
             </li>
             <li>
-              <a href="../Input/Input.html">Input</a><hr/>
+              <a href="../Input/Input.html">Input</a>
+              <hr />
             </li>
             <li>
               <a href="../Text-Utilities/TextUtil.html">Text Utilities</a>
@@ -66,102 +67,120 @@
         </div>
         <!-- main content: changes acc to selected component -->
         <div class="main-content">
-          <h1>Buttons</h1>
+          <h1>Lists</h1>
           <p class="description">
-            CSS buttons refer to styled HTML buttons that developers customize
-            to match their website designs. You can manipulate the colors, text
-            sizes, padding, and even change styling properties when buttons
-            enter different states.
+            The CSS list properties allow you to: Set different list item
+            markers for ordered lists. Set different list item markers for
+            unordered lists.
             <br />
             <br />
           </p>
 
           <div class="section section--type-one">
-            <h4>Primary Buttons</h4>
+            <h4>Ordered Lists</h4>
 
-            <div class="type-one--button">
-              <div class="button">
-                <button class="btn basic">Basic</button>
-                <button class="btn primary">Primary</button>
-                <button class="btn accent">Accent</button>
-                <button class="btn warn">Warn</button>
-                <button class="btn disabled">Disabled</button>
-              </div>
-              <div class="code-example-block">
-                <iframe
-                  src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=17px&dsblur=68px&wc=true&wa=true&pv=23px&ph=47px&ln=false&fl=1&fm=Hack&fs=10px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522button%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520%2520basic%2522%253EBasic%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520%2520primary%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520%2520accent%2522%253EAccent%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520%2520warn%2522%253EWarn%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520%2520disabled%2522%253EDisabled%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
-                  style="
-                    width: 422px;
-                    height: 296px;
-                    border: 0;
-                    transform: scale(1);
-                    overflow: hidden;
-                  "
-                  sandbox="allow-scripts allow-same-origin"
-                >
-                </iframe>
-              </div>
-</div>
-<h4>Floating Action Buttons</h4>
-<div class="type-one--button">
-              <div class="button">
-                <button class="btns btn basic">
-                  <i class="fas fa-bars"></i>
-                </button>
-                <button class="btns btn primary">
-                  <i class="fas fa-home"></i>
-                </button>
-                <button class="btns btn accent">
-                  <i class="fas fa-plus"></i>
-                </button>
-                <button class="btns btn warn">
-                  <i class="fas fa-heart"></i>
-                </button>
-                <button class="btns btn dots">
-                  <i class="fas fa-ellipsis-v"></i>
-                </button>
-              </div>
+            <div class="list">
+              <ol class="basic">
+                <li>Eggs</li>
+                <li>Bread</li>
+                <li>Peanut Butter</li>
+                <li>Maggie</li>
+              </ol>
+              <ol class="alpha">
+                <li>Eggs</li>
+                <li>Bread</li>
+                <li>Peanut Butter</li>
+                <li>Maggie</li>
+              </ol>
 
-              <div class="code-example-block">
-                <iframe
-                  src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=17px&dsblur=68px&wc=true&wa=true&pv=23px&ph=47px&ln=false&fl=1&fm=Hack&fs=10px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522button%2522%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btns%2520btn%2520basic%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bars%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btns%2520btn%2520primary%2522%253E%253Ci%2520class%253D%2522fas%2520fa-home%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btns%2520btn%2520accent%2522%253E%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btns%2520btn%2520warn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btns%2520btn%2520dots%2522%253E%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
-                  style="
-                    width: 566px;
-                    height: 186px;
-                    border: 0;
-                    transform: scale(1);
-                    overflow: hidden;
-                  "
-                  sandbox="allow-scripts allow-same-origin"
-                >
-                </iframe>
-              </div>
-</div>  
-<h4>Icon Buttons</h4>
+              <ol class="reverse">
+                <li>Eggs</li>
+                <li>Bread</li>
+                <li>Peanut Butter</li>
+                <li>Maggie</li>
+              </ol>
+            </div>
+            <div class="code-example-block">
+              <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=760&ds=true&dsyoff=0px&dsblur=100px&wc=true&wa=true&pv=37px&ph=86px&ln=false&fl=1&fm=Hack&fs=10px&lh=117%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%253Col%2520class%253D%2522basic%2522%253E%250A%2520%2520%2520%2520%2520%253Cli%253EEggs%253C%252Fli%253E%2520%253Cli%253EBread%253C%252Fli%253E%2520%253Cli%253EPeanut%2520Butter%253C%252Fli%253E%2520%253Cli%253EMaggie%253C%252Fli%253E%250A%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%253Col%2520class%253D%2522alpha%2522%253E%250A%2520%2520%2520%2520%2520%253Cli%253EEggs%253C%252Fli%253E%2520%253Cli%253EBread%253C%252Fli%253E%2520%253Cli%253EPeanut%2520Butter%253C%252Fli%253E%2520%253Cli%253EMaggie%253C%252Fli%253E%250A%2520%2520%2520%253C%252Fol%253E%250A%2520%2520%2520%253Col%2520class%253D%2522reverse%2522%253E%250A%2520%2520%2520%2520%2520%253Cli%253EEggs%253C%252Fli%253E%2520%253Cli%253EBread%253C%252Fli%253E%2520%253Cli%253EPeanut%2520Butter%253C%252Fli%253E%2520%253Cli%253EMaggie%253C%252Fli%253E%250A%2520%2520%2520%253C%252Fol%253E%250A%2520%253C%252Fdiv%253E"
+  style="width: 100%;margin: auto; height: 360px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+          </div>
 
-              <div class="button">
-                <button class="icon trash"><i class="fas fa-trash"></i></button>
-                <button class="icon home"><i class="fas fa-home"></i></button>
-                <button class="icon save">
-                  <i class="fas fa-bookmark"></i>
-                </button>
-                <button class="icon heart"><i class="fas fa-heart"></i></button>
-              </div>
-              <div class="code-example-block">
-                <iframe
-                  src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=17px&dsblur=68px&wc=true&wa=true&pv=23px&ph=47px&ln=false&fl=1&fm=Hack&fs=10px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522button%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522icon%2520trash%2522%253E%253Ci%2520class%253D%2522fas%2520fa-trash%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522icon%2520home%2522%253E%253Ci%2520class%253D%2522fas%2520fa-home%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522icon%2520save%2522%253E%253Ci%2520class%253D%2522fas%2520fa-bookmark%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522icon%2520heart%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
-                  style="
-                    width: 525px;
-                    height: 194px;
-                    border: 0;
-                    transform: scale(1);
-                    overflow: hidden;
-                  "
-                  sandbox="allow-scripts allow-same-origin"
-                >
-                </iframe>
-              </div>
+          <div class="section section--type-two">
+            <h4>Unordered Lists</h4>
 
+            <div class="list">
+              <ul>
+                <li>Eggs</li>
+                <li>Bread</li>
+                <li>Peanut Butter</li>
+                <li>Maggie</li>
+              </ul>
+
+              <ul class="square">
+                <li>Eggs</li>
+                <li>Bread</li>
+                <li>Peanut Butter</li>
+                <li>Maggie</li>
+              </ul>
+            </div>
+            <div class="code-example-block">
+              <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=760&ds=true&dsyoff=0px&dsblur=100px&wc=true&wa=true&pv=37px&ph=86px&ln=false&fl=1&fm=Hack&fs=10px&lh=117%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522list%2522%253E%250A%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%253Cli%253EEggs%253C%252Fli%253E%2520%253Cli%253EBread%253C%252Fli%253E%2520%253Cli%253EPeanut%2520Butter%253C%252Fli%253E%2520%253Cli%253EMaggie%253C%252Fli%253E%250A%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%253Cul%2520class%253D%2522square%2522%253E%250A%2520%2520%2520%2520%2520%253Cli%253EEggs%253C%252Fli%253E%2520%253Cli%253EBread%253C%252Fli%253E%2520%253Cli%253EPeanut%2520Butter%253C%252Fli%253E%2520%253Cli%253EMaggie%253C%252Fli%253E%250A%2520%2520%2520%253C%252Ful%253E%250A%2520%253C%252Fdiv%253E"
+  style="width: 100%; margin: auto; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+          </div>
+
+          <div class="section section--type-three">
+            <h4>Stacked Lists</h4>
+
+            <div class="list stacked">
+              <ul>
+                <li>
+                  <div class="inner"><img
+                    src="https://cdn.zivame.com/intl/assets/icons/faces300.png"
+                    alt="notif-img"
+                    class="notif-img"
+                  />Knock Knock! Tell us how you feel about your recent purchase.</div>
+                  <small>20 Jan, 2021</small>
+                </li>
+                <li>
+                  <div class="inner">
+                    <img
+                    src="https://cdn.zivame.com/live/images/imgpsh_fullsize.png"
+                    alt="notif-img"
+                    class="notif-img"
+                  />
+                  Hi Gorgeous! You have entered the Circle in our loyalty
+                  program - Circle Of Radiance!
+                  </div>
+                  <small>20 Mar, 2020</small>
+                </li>
+                <li>
+                  <div class="inner">
+                    <img
+                    src="https://rukminim1.flixcart.com/flap/50/50/image/b42372f365fcf579.jpg?q=90"
+                    alt="notif-img"
+                    class="notif-img"
+                  />
+                  Feeling lucky? Use your SuperCoins now to play daily jackpot &
+                  win exciting gift vouchers today!
+                  </div>
+                  <small>20 Jan, 2022</small>
+                </li>
+              </ul>
+            </div>
+            <div class="code-example-block">
+              <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=760&ds=true&dsyoff=0px&dsblur=100px&wc=true&wa=true&pv=37px&ph=86px&ln=false&fl=1&fm=Hack&fs=10px&lh=117%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522list%2520stacked%2522%253E%250A%2520%2520%2520%253Cul%253E%250A%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522inner%2522%253E%253Cimg%2520src%253D%2522%2520.%2520.%2520%2522%2520alt%253D%2522notif-img%2522%2520class%253D%2522notif-img%2522%2520%252F%253E%2520Your%2520text%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Csmall%253E20%2520Jan%252C%25202021%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522inner%2522%253E%253Cimg%2520src%253D%2522%2520.%2520.%2520%2522%2520alt%253D%2522notif-img%2522%2520class%253D%2522notif-img%2522%2520%252F%253E%2520Your%2520Text%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Csmall%253E20%2520Mar%252C%25202020%253C%252Fsmall%253E%250A%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%253C%252Ful%253E%250A%253C%252Fdiv%253E"
+  style="width: 100%; margin: auto; height: 360px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
             </div>
           </div>
         </div>
