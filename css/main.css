@@ -85,3 +85,12 @@ nav ul{
       background-color: var(--primary-color);
   }
   
+  .side-nav ul li a{
+      color: var(--primary-color);
+  }
+
+  #active{
+      font-weight: bold;
+      font-size: 1.3rem;
+      text-shadow: 4px 4px 0px  var(--secondary-color);
+  }

@@ -1,0 +1,81 @@
+.company-logo{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+}
+
+.type-one--navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    border: 1px dashed black;
+    border-radius: 0.6rem;
+}
+
+.fas{
+    color: black;
+    visibility: hidden;
+}
+
+@media screen and (max-width:539px){
+    
+        .type-one--navbar{
+           flex-direction: column;
+        }
+        .type-one--navbar ul{
+            display: flex;
+            flex-direction: column;
+        }
+        .fas{
+            visibility: visible;
+            font-size: 1.8rem;
+            margin: 0.5rem 0.5rem 0rem 0rem;
+        }
+
+      
+        .top-nav{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin: auto;
+            cursor: pointer;
+        }
+
+         .top-nav:hover + .hide{
+            display: block;
+         }
+
+        .hide {
+          /* visibility: hidden; */
+          display: none;
+        }
+
+}
+
+.type-one--navbar ul{
+    display: flex;
+
+}
+
+.type-one--navbar ul li{
+    list-style-type: none;
+    padding: 0.3rem;
+    cursor: pointer;
+}
+
+.type-one--navbar ul li:hover{
+   font-weight: bolder;
+   font-size: 1.4rem;
+}
+
+small{
+    font-size: 0.6rem;
+}
+
+
+.code-example-block{
+    margin-top: 5rem;
+}
