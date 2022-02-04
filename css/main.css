@@ -99,3 +99,9 @@ nav ul{
       font-size: 1.3rem;
       text-shadow: 4px 4px 0px  var(--secondary-color);
   }
+
+  .main-img{
+      margin: 0.8rem auto 0rem auto;
+      width: 15rem;
+      height: 15rem;      
+  }
