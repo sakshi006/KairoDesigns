@@ -1,8 +1,8 @@
 .type-one--alert {
   padding: 1rem;
-  margin: 1rem;
+  margin: 1rem auto;
   line-height: 4rem;
-  width: 30rem;
+  width: fit-content;
 }
 
 i {
@@ -17,6 +17,7 @@ i {
   text-align:start;
   box-shadow: 0.1rem 0.1rem 0.2rem 0rem var(--primary-color);
   cursor: pointer;
+  line-height: 2rem;
 }
 
 .alert:hover{

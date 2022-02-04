@@ -3,6 +3,7 @@
   padding: 1rem;
   margin: 1rem;
   font-size: 1.3rem;
+  width: 100%;
 }
 
 .side-nav {
@@ -44,7 +45,8 @@ h1,h4{
 }
 
 .code-example-block{
-    margin: 1rem;
-    text-align: center;
+    margin: 3rem auto;
     opacity: 0.8;
+    width: 100%;
+    text-align: center;
 }

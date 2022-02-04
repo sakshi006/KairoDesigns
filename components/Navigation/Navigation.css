@@ -49,8 +49,13 @@
          }
 
         .hide {
-          /* visibility: hidden; */
+          width: 100%;
+          text-align: center;
           display: none;
+        }
+
+        .hide:hover{
+            display: block;
         }
 
 }

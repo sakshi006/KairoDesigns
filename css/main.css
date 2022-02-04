@@ -41,6 +41,11 @@ nav ul{
       color: var(--primary-color);
   }
 
+  .content{
+    display: block;
+    margin: auto;
+    max-width: 90%;
+  }
   .content a{
       font-size: large;
       text-decoration: none;
@@ -93,4 +98,10 @@ nav ul{
       font-weight: bold;
       font-size: 1.3rem;
       text-shadow: 4px 4px 0px  var(--secondary-color);
+  }
+
+  .main-img{
+      margin: 0.8rem auto 0rem auto;
+      width: 15rem;
+      height: 15rem;      
   }
