@@ -1,0 +1,65 @@
+@import "../Card/Card.css";
+
+
+.type-one{
+    margin: 3rem auto;
+    width: 100%;
+
+}
+
+.rating{
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 0.4rem;
+}
+
+.rating .fas{
+    font-size: 0.9rem;
+}
+
+.fas:hover{
+    
+    color: initial;
+}
+
+
+.rating:hover{
+    color: black;
+    opacity: 0.9;
+}
+
+.gold{
+    color: var(--star);
+}
+
+.gold:hover{
+    color: var(--star);
+}
+
+.far,.fas{
+    font-size: 2.4rem;
+    margin: 0rem 1.3rem;
+}
+
+
+.fa-grin-stars:hover{
+  color: var(--positive-color);
+}
+
+.fa-smile-beam:hover{
+    color: var(--lightblue);
+}
+
+.fa-meh:hover{
+    color: var(--star);
+
+}
+
+.fa-frown:hover{
+    color: var(--lightblue);
+
+}
+
+.fa-angry:hover{
+  color: var(--negative-color);
+}

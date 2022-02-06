@@ -1,0 +1,48 @@
+.snackbar {
+  visibility: hidden;
+  margin: auto;
+  background-color: var(--primary-color);
+  text-align: center;
+  border-radius: 0.2rem;
+  padding: 1rem;
+  position: fixed;
+  z-index: 1;
+  left: 45%;
+  border-radius: 1rem;
+  box-shadow: 3px 4px 12px 2px var(--snackbar);
+}
+
+.type-one{
+  margin-top: 2rem;
+}
+
+button{
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+button:hover{
+  opacity: 0.7;
+}
+
+.bottom {
+  bottom: 2rem;
+}
+
+.top {
+  top: 2rem;
+}
+
+.snackbar.show {
+  visibility: visible;
+}
+
+.snackbar .fas {
+  color: var(--negative-color);
+  font-weight: lighter;
+  padding: 0rem 0rem 0rem 1rem;
+  cursor: pointer;
+}
