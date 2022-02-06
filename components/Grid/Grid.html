@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/components.css" />
+    <link rel="stylesheet" href="./Grid.css" />
+
+    <title>Grids</title>
+  </head>
+  <body>
+    <div class="content">
+      <!-- navbar : remains same for all pages -->
+      <nav>
+        <div class="logo"><a href="../../index.html">KairoDesigns</a></div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="../../index.html">Get Started</a></li>
+            <li><a href="../Avatar/Avatar.html">Docs</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="page-content">
+        <!-- sidenav bar : remains same for all components page -->
+        <div class="side-nav">
+          <ul>
+            <li>
+              <a href="../Avatar/Avatar.html">Avatar</a>
+            </li>
+            <li>
+              <a href="../Alert/Alert.html">Alert</a>
+            </li>
+            <li>
+              <a href="../Badges/Badges.html">Badges</a>
+            </li>
+            <li>
+              <a href="../Button/Button.html">Button</a>
+            </li>
+            <li>
+              <a href="../Card/Card.html">Card</a>
+            </li>
+            <li>
+              <a href="../Image/Image.html">Image</a>
+            </li>
+            <li>
+              <a href="../Input/Input.html">Input</a>
+              <hr />
+            </li>
+            <li>
+              <a href="../Text-Utilities/TextUtil.html">Text Utilities</a>
+            </li>
+            <li>
+              <a href="../Lists/Lists.html">Lists</a>
+            </li>
+            <li>
+              <a href="../Navigation/Navigation.html">Navigation</a>
+            </li>
+            <li>
+              <a href="../Modal/Modal.html">Modal</a>
+            </li>
+            <li>
+              <a href="../Rating/Rating.html">Ratings</a>
+            </li>
+            <li>
+              <a href="../Snackbar/Snackbar.html">Snackbar</a>
+            </li>
+            <li>
+              <a id="active" href="../Grid/Grid.html">Grids</a>
+            </li>
+            <li>
+              <a href="../Slider/Slider.html">Slider</a>
+            </li>
+          </ul>
+        </div>
+        <!-- main content: changes acc to selected component -->
+        <div class="main-content">
+          <h1>Grids</h1>
+          <p class="description">
+            Convey meaning through color with a handful of color utility
+            classes. <br />
+            <br />
+          </p>
+
+          <div class="section section--type-one">
+              <h4>Two-Column Grids</h4>
+            <div class="two-items">
+                <div class="grid-items pink "><p>One</p></div>
+                <div class="grid-items dk-pink "><p>Two</p></div>
+                <div class="grid-items red "><p>Three</p></div>
+                <div class="grid-items dk-red "><p>Four</p></div>
+                <div class="grid-items blue "><p>Five</p></div>
+                <div class="grid-items dk-blue "><p>Six</p></div>
+                <div class="grid-items purple "><p>Seven</p></div>
+                <div class="grid-items dk-purple "><p>Eight</p></div>
+            </div>
+            <div class="code-example-block">
+                <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=760&ds=true&dsyoff=0px&dsblur=100px&wc=true&wa=true&pv=32px&ph=86px&ln=false&fl=1&fm=Hack&fs=10px&lh=108%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522two-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-items%2520pink%2520%2522%253E%253Cp%253EOne%253C%252Fp%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-items%2520dk-pink%2520%2522%253E%253Cp%253ETwo%253C%252Fp%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-items%2520red%2520%2522%253E%253Cp%253EThree%253C%252Fp%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-items%2520dk-red%2520%2522%253E%253Cp%253EFour%253C%252Fp%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-items%2520blue%2520%2522%253E%253Cp%253EFive%253C%252Fp%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-items%2520dk-blue%2520%2522%253E%253Cp%253ESix%253C%252Fp%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-items%2520purple%2520%2522%253E%253Cp%253ESeven%253C%252Fp%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-items%2520dk-purple%2520%2522%253E%253Cp%253EEight%253C%252Fp%253E%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+  style="width: 100%;margin: auto; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+
+            <h4>Three-Column Grids</h4>
+            <div class="three-items">
+                <div class="grid-items pink "><p>One</p></div>
+                <div class="grid-items dk-pink "><p>Two</p></div>
+                <div class="grid-items red "><p>Three</p></div>
+                <div class="grid-items dk-red "><p>Four</p></div>
+                <div class="grid-items blue "><p>Five</p></div>
+                <div class="grid-items dk-blue "><p>Six</p></div>
+                <div class="grid-items purple "><p>Seven</p></div>
+                <div class="grid-items dk-purple "><p>Eight</p></div>
+            </div>
+            <div class="code-example-block">
+                <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=760&ds=true&dsyoff=0px&dsblur=100px&wc=true&wa=true&pv=32px&ph=86px&ln=false&fl=1&fm=Hack&fs=10px&lh=108%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522three-items%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-items%2520pink%2520%2522%253E%253Cp%253EOne%253C%252Fp%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-items%2520dk-pink%2520%2522%253E%253Cp%253ETwo%253C%252Fp%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-items%2520red%2520%2522%253E%253Cp%253EThree%253C%252Fp%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-items%2520dk-red%2520%2522%253E%253Cp%253EFour%253C%252Fp%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-items%2520blue%2520%2522%253E%253Cp%253EFive%253C%252Fp%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-items%2520dk-blue%2520%2522%253E%253Cp%253ESix%253C%252Fp%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-items%2520purple%2520%2522%253E%253Cp%253ESeven%253C%252Fp%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-items%2520dk-purple%2520%2522%253E%253Cp%253EEight%253C%252Fp%253E%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+  style="width: 100%;margin: auto; height: 300px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
