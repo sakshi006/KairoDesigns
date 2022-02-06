@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/components.css" />
+    <link rel="stylesheet" href="./Modal.css" />
+
+    <title>Modal</title>
+  </head>
+  <body>
+    <div class="content">
+      <!-- navbar : remains same for all pages -->
+      <nav>
+        <div class="logo"><a href="../../index.html">KairoDesigns</a></div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="../../index.html">Get Started</a></li>
+            <li><a href="../Avatar/Avatar.html">Docs</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="page-content">
+        <!-- sidenav bar : remains same for all components page -->
+        <div class="side-nav">
+          <ul>
+            <li>
+              <a href="../Avatar/Avatar.html">Avatar</a>
+            </li>
+            <li>
+              <a href="../Alert/Alert.html">Alert</a>
+            </li>
+            <li>
+              <a href="../Badges/Badges.html">Badges</a>
+            </li>
+            <li>
+              <a href="../Button/Button.html">Button</a>
+            </li>
+            <li>
+              <a href="../Card/Card.html">Card</a>
+            </li>
+            <li>
+              <a href="../Image/Image.html">Image</a>
+            </li>
+            <li>
+              <a href="../Input/Input.html">Input</a>
+              <hr />
+            </li>
+            <li>
+              <a href="../Text-Utilities/TextUtil.html">Text Utilities</a>
+            </li>
+            <li>
+              <a href="../Lists/Lists.html">Lists</a>
+            </li>
+            <li>
+              <a href="../Navigation/Navigation.html">Navigation</a>
+            </li>
+            <li>
+              <a id="active" href="../Modal/Modal.html">Modal</a>
+            </li>
+            <li>
+              <a href="../Rating/Rating.html">Ratings</a>
+            </li>
+            <li>
+              <a href="../Snackbar/Snackbar.html">Snackbar</a>
+            </li>
+            <li>
+              <a href="../Grid/Grid.html">Grids</a>
+            </li>
+            <li>
+              <a href="../Slider/Slider.html">Slider</a>
+            </li>
+          </ul>
+        </div>
+        <!-- main content: changes acc to selected component -->
+        <div class="main-content">
+          <h1>Modal</h1>
+          <p class="description">
+            A modal is a dialog box/popup window that is displayed on top of the
+            current page: Open Modal.
+            <br />
+            <br />
+          </p>
+
+          <!-- bottom snackbar -->
+          <div class="section section--type-one">
+            <div class="type-one">
+              <div class="modal">
+                <div class="modal-top">
+                  <i class="fas fa-exclamation-triangle"></i> Are you sure you
+                  want to Submit?
+                </div>
+               <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Tempora illum necessitatibus officia fugiat repudiandae! Tempore
+                nihil recusandae aperiam dolor facere.</p>
+                <button>Close</button>
+              </div>
+            </div>
+            <div class="code-example-block">
+                <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=760&ds=true&dsyoff=0px&dsblur=100px&wc=true&wa=true&pv=32px&ph=86px&ln=false&fl=1&fm=Hack&fs=10px&lh=108%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-top%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%2520Are%2520you%2520sure%2520you%2520want%2520to%2520Submit%253F%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cp%253E%2520Lorem%2520ipsum%2520dolor%2520sit%252C%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Tempora%2520illum%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520necessitatibus%2520officia%2520fugiat%2520repudiandae%21%2520Tempore%2520nihil%2520recusandae%2520aperiam%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520dolor%2520facere.%250A%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%253Cbutton%253EClose%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+  style="width: 100%;margin: auto; height: 360px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
