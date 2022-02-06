@@ -10,6 +10,13 @@
     --primary-color: #A5668B;
     --secondary-color:#F2D7EE;
     --alternate-color:#630000;
+    --positive-color: rgb(3, 209, 3);
+    --negative-color: rgb(231, 0, 0);
+    --disable-color: rgb(196, 192, 192);
+    --hover: rgb(248, 248, 248);
+    --snackbar : rgb(36, 49, 79);
+    --star: rgb(255, 187, 0);
+    --lightblue : rgb(118, 207, 240);
 }
 
 body{      
@@ -105,3 +112,4 @@ nav ul{
       width: 15rem;
       height: 15rem;      
   }
+

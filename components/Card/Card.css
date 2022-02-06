@@ -1,10 +1,3 @@
-:root {
-  --positive-color: rgb(3, 209, 3);
-  --negative-color: rgb(231, 0, 0);
-  --disable-color: rgb(196, 192, 192);
-  --hover: rgb(248, 248, 248);
-}
-
 .cardcom {
   margin: 2rem auto 4rem auto;
 }

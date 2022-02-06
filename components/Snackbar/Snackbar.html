@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/components.css" />
+    <link rel="stylesheet" href="./Snackbar.css" />
+
+    <title>Snackbar</title>
+  </head>
+  <body>
+    <div class="content">
+      <!-- navbar : remains same for all pages -->
+      <nav>
+        <div class="logo"><a href="../../index.html">KairoDesigns</a></div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="../../index.html">Get Started</a></li>
+            <li><a href="../Avatar/Avatar.html">Docs</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="page-content">
+        <!-- sidenav bar : remains same for all components page -->
+        <div class="side-nav">
+          <ul>
+            <li>
+              <a href="../Avatar/Avatar.html">Avatar</a>
+            </li>
+            <li>
+              <a href="../Alert/Alert.html">Alert</a>
+            </li>
+            <li>
+              <a href="../Badges/Badges.html">Badges</a>
+            </li>
+            <li>
+              <a href="../Button/Button.html">Button</a>
+            </li>
+            <li>
+              <a href="../Card/Card.html">Card</a>
+            </li>
+            <li>
+              <a href="../Image/Image.html">Image</a>
+            </li>
+            <li>
+              <a href="../Input/Input.html">Input</a>
+              <hr />
+            </li>
+            <li>
+              <a href="../Text-Utilities/TextUtil.html">Text Utilities</a>
+            </li>
+            <li>
+              <a href="../Lists/Lists.html">Lists</a>
+            </li>
+            <li>
+              <a href="../Navigation/Navigation.html">Navigation</a>
+            </li>
+            <li>
+              <a href="../Modal/Modal.html">Modal</a>
+            </li>
+            <li>
+              <a href="../Rating/Rating.html">Ratings</a>
+            </li>
+            <li>
+              <a id="active" href="../Snackbar/Snackbar.html">Snackbar</a>
+            </li>
+            <li>
+              <a href="../Grid/Grid.html">Grids</a>
+            </li>
+            <li>
+              <a href="../Slider/Slider.html">Slider</a>
+            </li>
+          </ul>
+        </div>
+        <!-- main content: changes acc to selected component -->
+        <div class="main-content">
+          <h1>Snackbar</h1>
+          <p class="description">
+            The Snackbar/Toast/Notify component is like an alert box that is
+            only shown for a couple of seconds when something happens (i.e. when
+            the user clicks on a button, submits a form, etc.).
+            <br />
+            <br />
+          </p>
+
+          <!-- bottom snackbar -->
+          <div class="section section--type-one">
+           <h4>Bottom Snackbar</h4>
+            <div class="type-one">
+              <button id="btn-bottom">Show</button>
+              <div class="snackbar bottom">
+                This notif will go in 3 Seconds
+                <i id="close-bottom" class="fas fa-times-circle"></i>
+              </div>
+            </div>
+            <div class="code-example-block">
+              <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=760&ds=true&dsyoff=0px&dsblur=100px&wc=true&wa=true&pv=32px&ph=86px&ln=false&fl=1&fm=Hack&fs=10px&lh=108%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522snackbar%2520bottom%2522%253E%250A%2520%2520%2520%2520%2520This%2520notif%2520will%2520go%2520in%25203%2520Seconds%250A%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522close-bottom%2522%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2520%253C%252Fdiv%253E"
+  style="width: 100%; margin: auto; height: 200px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+          </div>
+          <!--top snackbar  -->
+          <div class="section section--type-one">
+            <h4>Top Snackbar</h4>
+         
+            <div class="type-one">
+              <button id="btn-top">Show</button>
+              <div class="snackbar top">
+                This notif will go in 5 Seconds
+                <i id="close-top" class="fas fa-times-circle"></i>
+              </div>
+            </div>
+            <div class="code-example-block">
+              <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=760&ds=true&dsyoff=0px&dsblur=100px&wc=true&wa=true&pv=32px&ph=86px&ln=false&fl=1&fm=Hack&fs=10px&lh=108%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522snackbar%2520top%2522%253E%250A%2520%2520%2520%2520%2520This%2520notif%2520will%2520go%2520in%25205%2520Seconds%250A%2520%2520%2520%2520%2520%253Ci%2520id%253D%2522close-top%2522%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2520%253C%252Fdiv%253E"
+  style="width: 100%;margin: auto; height: 200px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="Snackbar.js"></script>
+  </body>
+</html>
