@@ -17,6 +17,14 @@
     --snackbar : rgb(36, 49, 79);
     --star: rgb(255, 187, 0);
     --lightblue : rgb(118, 207, 240);
+    --pink:rgb(255, 192, 229);
+    --dk-pink:rgb(251, 111, 181);
+    --red:rgb(255, 137, 137);
+    --dk-red:rgb(206, 21, 21);
+    --blue:rgb(176, 229, 255);
+    --dk-blue:rgb(104, 197, 255);
+    --purple:rgb(223, 169, 223);
+    --dk-purple:rgb(202, 64, 202);
 }
 
 body{      

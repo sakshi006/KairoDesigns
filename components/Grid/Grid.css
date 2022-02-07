@@ -1,0 +1,50 @@
+.code-example-block {
+  margin-top: 5rem;
+}
+
+.two-items {
+  grid-template-columns: 1fr 1fr;
+  max-width: 30rem;
+  display: grid;
+  grid-gap: 1rem;
+  margin: auto;
+}
+
+.three-items {
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 36rem;
+  display: grid;
+  grid-gap: 1rem;
+  margin: auto;
+}
+
+.grid-items {
+  padding: 1rem;
+  text-align: center;
+  border: 1px dashed black;
+}
+
+.pink {
+  background-color: var(--pink);
+}
+.dk-pink {
+  background-color: var(--dk-pink);
+}
+.red {
+  background-color: var(--red);
+}
+.dk-red {
+  background-color: var(--dk-red);
+}
+.blue {
+  background-color: var(--blue);
+}
+.dk-blue {
+  background-color: var(--dk-blue);
+}
+.purple {
+  background-color: var(--purple);
+}
+.dk-purple {
+  background-color: var(--dk-purple);
+}
