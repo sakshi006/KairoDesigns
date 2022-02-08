@@ -36,7 +36,13 @@ body{
       justify-content: space-between;
       align-items: center;
       padding: 1.5rem;
-      margin: 1.5rem;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      left: 0;
+      z-index: 1;
+      background-color: var(--secondary-color);
   }
   .logo a{
       color: var(--primary-color) !important;
@@ -49,7 +55,33 @@ nav ul{
 
   nav ul li {
       list-style-type: none;
-      padding: 0rem 1rem;
+      margin-right: 3rem;
+  }
+
+  /* navbar responsiveness */
+  @media screen and (max-width:480px)
+  {
+    nav ul li {
+        margin-right: 2rem;
+    }
+}
+
+  @media screen and (max-width:416.60px)
+  {
+    nav ul li {
+        margin-right: 1.5rem;
+    }
+}
+  @media screen and (max-width:393.60px)
+  {
+      nav ul li:nth-child(3){
+          display: none;
+      }
+    nav ul li {
+        margin-right:1.5rem;
+        padding: auto 0rem;
+    }
+  
   }
 
   .header span{
@@ -80,7 +112,7 @@ nav ul{
       width: 60%;
       padding: 1rem;
       line-height: 3rem;
-      margin-top: 3rem;
+      margin-top: 5rem;
       font-size: 2rem;
   }
 .main_btn{
@@ -121,3 +153,17 @@ nav ul{
       height: 15rem;      
   }
 
+
+
+  .install{
+      text-align: center;
+      margin-top: 6rem !important;
+      max-width: 100%;;
+      margin: auto;
+  }
+
+  .install span{
+      color: var(--primary-color);
+      font-size: x-large;
+      font-weight: bold;
+  }

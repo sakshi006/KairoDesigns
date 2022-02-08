@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link
-    rel="stylesheet"
-    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-    crossorigin="anonymous"
-  />
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
 
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/components.css" />
@@ -25,11 +25,63 @@
         <div class="logo"><a href="../../index.html">KairoDesigns</a></div>
         <div class="nav-links">
           <ul>
+            <li><a href="../../installation.html">Installation</a></li>
             <li><a href="../../index.html">Get Started</a></li>
             <li><a href="../Avatar/Avatar.html">Docs</a></li>
           </ul>
         </div>
       </nav>
+      <div class="top-navbar">
+        <ul>
+          <li>
+            <a href="../Avatar/Avatar.html">Avatar</a>
+          </li>
+          <li>
+            <a id="active" href="../Alert/Alert.html">Alert</a>
+          </li>
+          <li>
+            <a href="../Badges/Badges.html">Badges</a>
+          </li>
+          <li>
+            <a href="../Button/Button.html">Button</a>
+          </li>
+          <li>
+            <a href="../Card/Card.html">Card</a>
+          </li>
+          <li>
+            <a href="../Image/Image.html">Image</a>
+          </li>
+          <li>
+            <a href="../Input/Input.html">Input</a>
+          </li>
+          <li>
+            <a href="../Text-Utilities/TextUtil.html">Text Utils</a>
+          </li>
+          <li>
+            <a href="../Lists/Lists.html">Lists</a>
+          </li>
+          <li>
+            <a href="../Navigation/Navigation.html">Navigation</a>
+          </li>
+          <li>
+            <a href="../Modal/Modal.html">Modal</a>
+          </li>
+          <li>
+            <a href="../Rating/Rating.html">Ratings</a>
+          </li>
+          <li>
+            <a href="../Snackbar/Snackbar.html">Snackbar</a>
+          </li>
+          <li>
+            <a href="../Grid/Grid.html">Grids</a>
+          </li>
+          <!-- <li>
+            <a href="../Slider/Slider.html">Slider</a>
+          </li> -->
+        </ul>
+        <hr />
+      </div>
+      <hr />
 
       <div class="page-content">
         <!-- sidenav bar : remains same for all components page -->
@@ -39,7 +91,7 @@
               <a href="../Avatar/Avatar.html">Avatar</a>
             </li>
             <li>
-              <a  id="active" href="../Alert/Alert.html">Alert</a>
+              <a id="active" href="../Alert/Alert.html">Alert</a>
             </li>
             <li>
               <a href="../Badges/Badges.html">Badges</a>
@@ -55,10 +107,10 @@
             </li>
             <li>
               <a href="../Input/Input.html">Input</a>
-              <hr/>
+              <hr />
             </li>
             <li>
-              <a href="../Text-Utilities/TextUtil.html">Text Utilities</a>
+              <a href="../Text-Utilities/TextUtil.html">Text Utils</a>
             </li>
             <li>
               <a href="../Lists/Lists.html">Lists</a>
@@ -78,70 +130,115 @@
             <li>
               <a href="../Grid/Grid.html">Grids</a>
             </li>
-            <li>
+            <!-- <li>
               <a href="../Slider/Slider.html">Slider</a>
-            </li>
+            </li> -->
           </ul>
         </div>
         <!-- main content: changes acc to selected component -->
         <div class="main-content">
           <h1>Alerts</h1>
           <p class="description">
-            An alert displays a short, important message in a way that attracts the user's attention without interrupting the user's task.
+            An alert displays a short, important message in a way that attracts
+            the user's attention without interrupting the user's task.
             <br />
             <br />
-            
           </p>
-          
-          <div class="section section--type-one">
-            <h4>Basic Alerts</h4> <small>The alert offers four severity levels that set a distinctive icon and color.</small>
-            <div class="type-one--alert">
-                <div class="alert error">
-                  <i class="fas fa-exclamation-circle"></i>This is an error alert -- check it out
-                </div>
-               
-                <div class="alert warning">
-                  <i class="fas fa-exclamation-triangle"></i>This is a Warning alert -- check it out
-                </div>
-                <div class="alert info">
-                  <i class="fas fa-info-circle"></i>This is an Info alert -- check it out
-                </div>
-                <div class="alert success">
-                  <i class="fas fa-check-double"></i>This is a Success alert -- check it out
-                </div>
-            </div>
-            <div class="code-example-block">
-           
-              <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=17px&dsblur=68px&wc=true&wa=true&pv=23px&ph=47px&ln=false&fl=1&fm=Hack&fs=10px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520error%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%2520%253C%252Fi%253EThis%2520is%2520an%2520error%2520alert%2520--%2520check%2520it%2520out%2520%253C%252Fdiv%253E"
-              style="margin: auto;
-              width: 100%; height: 144px; border:0; transform: scale(1); overflow:hidden;"
-              sandbox="allow-scripts allow-same-origin"> 
-            </iframe>
-            </div>
-            <div class="code-example-block">
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=17px&dsblur=68px&wc=true&wa=true&pv=23px&ph=47px&ln=false&fl=1&fm=Hack&fs=10px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%2520%253C%252Fi%253EThis%2520is%2520a%2520Warning%2520alert%2520--%2520check%2520it%2520out%2520%253C%252Fdiv%253E"
-  style="width: 100%; margin: auto; height: 144px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe></div> 
-<div class="code-example-block">
 
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=17px&dsblur=68px&wc=true&wa=true&pv=23px&ph=47px&ln=false&fl=1&fm=Hack&fs=10px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520info%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%2520%253C%252Fi%253EThis%2520is%2520an%2520Info%2520alert%2520--%2520check%2520it%2520out%2520%253C%252Fdiv%253E"
-  style="width: 100%; margin: auto; height: 144px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
-</div>
-<div class="code-example-block">
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=17px&dsblur=68px&wc=true&wa=true&pv=23px&ph=47px&ln=false&fl=1&fm=Hack&fs=10px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520success%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-check-double%2522%253E%2520%253C%252Fi%253EThis%2520is%2520a%2520Success%2520alert%2520--%2520check%2520it%2520out%2520%253C%252Fdiv%253E"
-  style="width: 100%; margin: auto; height: 144px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+          <div class="section section--type-one">
+            <h4>Basic Alerts</h4>
+            <small
+              >The alert offers four severity levels that set a distinctive icon
+              and color.</small
+            >
+            <div class="type-one--alert">
+              <div class="alert error">
+                <i class="fas fa-exclamation-circle"></i>This is an error alert
+                -- check it out
+              </div>
+
+              <div class="alert warning">
+                <i class="fas fa-exclamation-triangle"></i>This is a Warning
+                alert -- check it out
+              </div>
+              <div class="alert info">
+                <i class="fas fa-info-circle"></i>This is an Info alert -- check
+                it out
+              </div>
+              <div class="alert success">
+                <i class="fas fa-check-double"></i>This is a Success alert --
+                check it out
+              </div>
+            </div>
+            <div class="code-example-block">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=17px&dsblur=68px&wc=true&wa=true&pv=23px&ph=47px&ln=false&fl=1&fm=Hack&fs=10px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520error%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%2520%253C%252Fi%253EThis%2520is%2520an%2520error%2520alert%2520--%2520check%2520it%2520out%2520%253C%252Fdiv%253E"
+                style="
+                  margin: auto;
+                  width: 100%;
+                  height: 144px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+            <div class="code-example-block">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=17px&dsblur=68px&wc=true&wa=true&pv=23px&ph=47px&ln=false&fl=1&fm=Hack&fs=10px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520warning%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%2520%253C%252Fi%253EThis%2520is%2520a%2520Warning%2520alert%2520--%2520check%2520it%2520out%2520%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  margin: auto;
+                  height: 144px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+            <div class="code-example-block">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=17px&dsblur=68px&wc=true&wa=true&pv=23px&ph=47px&ln=false&fl=1&fm=Hack&fs=10px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520info%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%2520%253C%252Fi%253EThis%2520is%2520an%2520Info%2520alert%2520--%2520check%2520it%2520out%2520%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  margin: auto;
+                  height: 144px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+            <div class="code-example-block">
+              <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28242%2C215%2C238%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=true&dsyoff=17px&dsblur=68px&wc=true&wa=true&pv=23px&ph=47px&ln=false&fl=1&fm=Hack&fs=10px&lh=119%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520success%2522%253E%2520%253Ci%2520class%253D%2522fas%2520fa-check-double%2522%253E%2520%253C%252Fi%253EThis%2520is%2520a%2520Success%2520alert%2520--%2520check%2520it%2520out%2520%253C%252Fdiv%253E"
+                style="
+                  width: 100%;
+                  margin: auto;
+                  height: 144px;
+                  border: 0;
+                  transform: scale(1);
+                  overflow: hidden;
+                "
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
             </div>
           </div>
-          
+          <footer>
+            <a class="foot-item" href="../Avatar/Avatar.html"
+              ><i class="far fa-hand-point-left"></i>Avatar</a
+            >
+            <a class="foot-item" href="../Badges/Badges.html"
+              >Badge<i class="far fa-hand-point-right"></i
+            ></a>
+          </footer>
         </div>
       </div>
     </div>

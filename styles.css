@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Overlock&family=Poppins:ital,wght@0,300;0,400;1,200&display=swap');
+
+@import './css/components.css';
+@import './css/main.css';
+@import './components/Alert/Alert.css';
+@import './components/Avatar/Avatar.css';
+@import './components/Badges/Badges.css';
+@import './components/Button/Button.css';
+@import './components/Card/Card.css';
+@import './components/Grid/Grid.css';
+@import './components/Image/Image.css';
+@import './components/Input/Input.css';
+@import './components/Lists/Lists.css';
+@import './components/Modal/Modal.css';
+@import './components/Navigation/Navigation.css';
+@import './components/Navigation/Navigation.css';
+@import './components/Rating/Rating.css';
+@import './components/Snackbar/Snackbar.css';
+@import './components/Text-Utilities/TextUtil.css';
+

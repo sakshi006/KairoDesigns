@@ -1,52 +1,136 @@
+
 .page-content {
   display: flex;
   padding: 1rem;
-  margin: 1rem;
+  margin: auto;
+  margin-top: 7rem;
   font-size: 1.3rem;
   width: 100%;
 }
 
 .side-nav {
-  /* background-color: #8a2be2; */
   flex-basis: 12rem;
   border-right: 1.5px solid var(--primary-color);
 }
 
+@keyframes mymove {
+  50% {letter-spacing: 0.05rem;}
+}
+
 .side-nav ul li:hover {
   font-weight: bold;
+  animation: mymove 1s infinite;
 }
 
 .main-content {
-  /* background-color: chocolate; */
   flex-grow: 1;
   padding: 0rem 1rem;
   margin: 0rem 1rem;
   max-width: 60rem;
 }
 
-h1,h4{
+h1,
+h4 {
   color: var(--primary-color);
   margin-bottom: 0.7rem;
   border-bottom: 2px dashed var(--secondary-color);
 }
 
-.description{
-  margin: 1.5rem 0rem;
+.description {
+  margin: 1.5rem auto;
 }
 
-.section{
+.section {
   margin: 2rem 0rem;
 }
 
 .side-nav ul li {
   list-style-type: none;
   line-height: 3rem;
-  
 }
 
-.code-example-block{
-    margin: 3rem auto;
-    opacity: 0.8;
-    width: 100%;
-    text-align: center;
+.code-example-block {
+  margin: 3rem auto;
+  opacity: 0.8;
+  width: 100%;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.foot-item:hover {
+  text-shadow: 4px 4px 0px var(--secondary-color);
+  font-weight: bold;
+  animation: mymove 1s infinite;
+}
+
+footer .far {
+  margin: 0rem 0.5rem !important;
+  font-size: initial !important;
+  color: initial !important;
+}
+
+.top-navbar {
+  display: none;
+}
+
+
+
+
+/* responsiveness */
+@media screen and (max-width: 969.6px) {
+  .side-nav {
+    display: none;
+  }
+
+  .page-content {
+    padding: 0rem;
+    margin-top: 3rem;
+  }
+
+  .top-navbar {
+    display: block;
+    text-align: left;
+    margin-top: 6rem;
+  }
+
+  .top-navbar hr {
+    display: none;
+  }
+
+  .top-navbar ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0.1rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+  .top-navbar ul li {
+    list-style-type: none;
+    margin: 0rem 0.5rem;
+  }
+
+  .top-navbar li:hover {
+    animation: mymove 1s infinite;
+  }
+}
+
+@media screen and (max-width: 532px) {
+  .top-navbar {
+    display: none;
+  }
+  hr {
+    display: none;
+  }
+  .page-content {
+    margin-top: 5rem;
+  }
 }
