@@ -36,7 +36,13 @@ body{
       justify-content: space-between;
       align-items: center;
       padding: 1.5rem;
-      margin: 1.5rem;
+      overflow: hidden;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      left: 0;
+      z-index: 1;
+      background-color: var(--secondary-color);
   }
   .logo a{
       color: var(--primary-color) !important;
@@ -49,7 +55,24 @@ nav ul{
 
   nav ul li {
       list-style-type: none;
-      padding: 0rem 1rem;
+      margin-right: 5rem;
+  }
+
+  /* navbar responsiveness */
+
+  @media screen and (max-width:414.60px)
+  {
+    nav ul li {
+        margin-right: 2.5rem;
+    }
+  
+  }
+  @media screen and (max-width:280.60px)
+  {
+    nav ul li {
+        margin-right:1.6rem;
+    }
+  
   }
 
   .header span{
