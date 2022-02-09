@@ -8,7 +8,7 @@
   margin: 0.5rem;
   background-color: var(--secondary-color);
   border-radius: 0.5rem;
-  width: 18rem;
+  width: 17.5rem;
   box-shadow: 0.3rem 0.5rem 0.6rem 0.2rem grey;
 }
 
@@ -16,7 +16,7 @@
     box-shadow: 0.3rem 0.5rem 0.6rem 0.2rem rgb(98, 98, 98);}
 
 .card-image-one {
-  width: 18rem;
+  width: 17.5rem;
   height: 12rem;
   object-fit: contain;
   border-top-right-radius: 0.5rem;
@@ -77,8 +77,8 @@ i {
 }
 
 .card-image-two {
-  width: 6rem;
-  height: 6rem;
+   width: 5rem;
+  height: 5rem;
   border-top-left-radius: 0.5rem;
 }
 
@@ -243,6 +243,12 @@ button {
 .horizontal .product-detail{
     line-height: 2rem;
 }
+footer ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
 
 .button{
  margin: 0rem 1rem;
@@ -255,4 +261,10 @@ button {
 
 .horizontal .footer{
     margin-top: 4rem;
+}
+@media screen and (max-width:590px){
+  
+   .remove{
+     display: none;
+   }
 }
