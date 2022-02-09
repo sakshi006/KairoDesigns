@@ -44,7 +44,7 @@ button{
 /* THREE */
 .three{
     padding: 0.3rem 0.6rem;
-    left: 20rem;
+    left: 14rem;
     top: -0.8rem;
 
 }
@@ -54,7 +54,7 @@ button{
 .four{
     padding: 0.3rem 0.6rem;
     top: -0.6rem;
-    left: 19rem;
+    left: 14.5rem;
 }
 
 /* FIVE */
@@ -66,19 +66,13 @@ button{
 
 .six{
     padding: 0.5rem;
-    left: 15rem;
+    left: 12.8rem;
     top:0.7rem;
 }
 
 i{
     font-size: 2rem;
     color: var(--primary-color);
-}
-
-
-iframe{
-    margin: 2rem 0rem;
-    width: 42rem !important;
 }
 
 .img {
