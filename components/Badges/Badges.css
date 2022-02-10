@@ -75,7 +75,7 @@ i{
     color: var(--primary-color);
 }
 
-.img {
+.img-badge {
     width: 4rem;
     height: 4.2rem;
     border: 1.1px solid black;
