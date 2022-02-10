@@ -30,21 +30,21 @@ button{
 /* ONE */
 .one{
   padding: 0.2rem 0.4rem;
-  left: 7.9rem;
-  top: -0.4rem;
+  left: 5.9rem;
+  top: -0.8rem;
 }
 
 /* TWO */
 .two{
     padding: 0.6rem 0.8rem;
-    left: 10.5rem;
-    top: -1.2rem;
+    left: 8rem;
+    top: -1.5rem;
   }
 
 /* THREE */
 .three{
     padding: 0.3rem 0.6rem;
-    left: 11rem;
+    left: 9rem;
     top: -0.8rem;
 
 }
@@ -54,19 +54,19 @@ button{
 .four{
     padding: 0.3rem 0.6rem;
     top: -0.6rem;
-    left: 11rem;
+    left: 9rem;
 }
 
 /* FIVE */
 .five{
     padding: 0.3rem;
-    left: 7.5rem;
+    left: 6.4rem;
     top:-0.4rem;
 }
 
 .six{
     padding: 0.5rem;
-    left: 11.5rem;
+    left: 10rem;
     top:0.7rem;
 }
 
