@@ -37,29 +37,28 @@
 .card-text-one summary {
   margin: 0.5rem 0rem;
 }
-footer {
+.cardcom footer {
   display: flex;
   justify-content: space-between;
   color: var(--primary-color);
   margin: 0.3rem;
 }
 
-span {
+.cardcom span {
   padding: 0.3rem;
   border: 0.5rem;
   cursor: pointer;
   color: black;
 }
-span:hover {
+.cardcom span:hover {
   color: var(--primary-color);
-  border-radius: 0.4rem;
 }
 
-i:hover {
+.cardcom i:hover {
   color: var(--alternate-color);
 }
 
-i {
+.cardcom i {
   width: 1rem;
   height: 1rem;
   text-align: center;
@@ -82,51 +81,51 @@ i {
   border-top-left-radius: 0.5rem;
 }
 
-section {
+.cardcom section {
   display: flex;
   flex-wrap: nowrap;
 }
-article {
+.cardcom article {
   padding: 0.5rem;
 }
 
-section:hover {
+.cardcom section:hover {
   cursor: pointer;
   background-color: var(--hover-color2);
 }
 
 /* icons styling */
 
-.fa-heart:hover {
+.cardcom .fa-heart:hover {
   color: red;
 }
 
-.fa-share-alt:hover {
+.cardcom .fa-share-alt:hover {
   color: rgb(64, 121, 255);
 }
 
-.fa-ellipsis-v:hover {
+.cardcom .fa-ellipsis-v:hover {
   color: black;
 }
 
 /* badge card */
 
-.badge {
+.cardcom .badge {
   padding: 1rem;
   background-color: white;
   border-radius: 0;
   position: relative;
 }
 
-.badge:hover {
+.cardcom .badge:hover {
   background-color: var(--hover);
 }
-.product-detail > p {
+.cardcom .product-detail > p {
   font-size: medium;
   margin-top: 0.5rem;
 }
 
-.badge > .update-badge {
+.cardcom .badge > .update-badge {
   position: absolute;
   background-color: var(--positive-color);
   font-size: 0.6rem;
@@ -134,42 +133,42 @@ section:hover {
   top: 3rem;
 }
 
-.rating {
+.cardcom .rating {
   background-color: var(--positive-color);
   font-size: x-small;
 }
 
-.rating > i {
+.cardcom .rating > i {
   padding: 0;
   margin: 0;
 }
 
-.price {
+.cardcom .price {
   font-size: medium;
   padding-top: 0.5rem;
 }
-.old-price {
+.cardcom .old-price {
   text-decoration: line-through;
   color: var(--disable-color);
 }
 
-.discount {
+.cardcom .discount {
   color: var(--positive-color);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.footer {
+.cardcom .footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 0.3rem;
 }
 
-.card-image {
+.cardcom .card-image {
   height: 22rem;
 }
 
-.hide {
+.cardcom .hide {
   visibility: hidden;
   /* display: none; */
 }
@@ -180,7 +179,7 @@ section:hover {
 
 /* card with dismiss */
 
-.close {
+.cardcom .close {
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -189,14 +188,14 @@ section:hover {
   margin: 0;
 }
 
-button {
+.cardcom button {
   margin: 0.5rem;
   border: 1px dashed var(--disable-color);
   padding: 0.4rem;
   background-color: white;
 }
 
-.negative {
+.cardcom .negative {
   background-color: var(--negative-color);
 }
 
@@ -204,7 +203,7 @@ button {
 
 /* text over cards */
 
-.text-over{
+.cardcom .text-over{
     
     position: absolute;
     top: 11rem;
@@ -243,14 +242,14 @@ button {
 .horizontal .product-detail{
     line-height: 2rem;
 }
-footer ul{
+.cardcom footer ul{
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 0.5rem;
 }
 
-.button{
+.cardcom .button{
  margin: 0rem 1rem;
  padding: 0.6rem;
  border-radius: 1.5rem;
@@ -264,7 +263,7 @@ footer ul{
 }
 @media screen and (max-width:590px){
   
-   .remove{
+  .remove{
      display: none;
    }
 }
