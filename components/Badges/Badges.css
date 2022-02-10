@@ -1,90 +1,87 @@
-.section--type-one{
-   margin: 2rem auto;
-    max-width: 100%;
+.section--type-one {
+  margin: 2rem auto;
+  max-width: 100%;
 }
 
-span{
-    font-size: 0.7rem;
-    color: black;
+.child span {
+  font-size: 0.7rem;
+  color: black;
 }
-button{
-    background-color: var(--primary-color) ;
-    border: none;
-    padding: 0.5rem 0.9rem;
-    border-radius: 0.5rem;
+.child button {
+  background-color: var(--primary-color);
+  border: none;
+  padding: 0.5rem 0.9rem;
+  border-radius: 0.5rem;
 }
-.child{
-    margin: 1rem;
-    position: relative;
-    color: var(--primary-color);
-    font-weight: bold;
+.child {
+  margin: 1rem;
+  position: relative;
+  color: var(--primary-color);
+  font-weight: bold;
 }
 
-.badge{
-    background-color: var(--secondary-color);
-    border-radius: 50%;
-    position: absolute;
-    border: 1px solid var(--alternate-color);
-    box-shadow: 0.1rem 0.1rem 0.2rem 0rem var(--primary-color);
+.badge {
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  position: absolute;
+  border: 1px solid var(--alternate-color);
+  box-shadow: 0.1rem 0.1rem 0.2rem 0rem var(--primary-color);
 }
 /* ONE */
-.one{
+.one {
   padding: 0.2rem 0.4rem;
   left: 5.9rem;
   top: -0.8rem;
 }
 
 /* TWO */
-.two{
-    padding: 0.6rem 0.8rem;
-    left: 8rem;
-    top: -1.5rem;
-  }
+.two {
+  padding: 0.6rem 0.8rem;
+  left: 8rem;
+  top: -1.5rem;
+}
 
 /* THREE */
-.three{
-    padding: 0.3rem 0.6rem;
-    left: 9rem;
-    top: -0.8rem;
-
+.three {
+  padding: 0.3rem 0.6rem;
+  left: 9rem;
+  top: -0.8rem;
 }
- 
 
 /* FOUR */
-.four{
-    padding: 0.3rem 0.6rem;
-    top: -0.6rem;
-    left: 9rem;
+.four {
+  padding: 0.3rem 0.6rem;
+  top: -0.6rem;
+  left: 9rem;
 }
 
 /* FIVE */
-.five{
-    padding: 0.3rem;
-    left: 6.4rem;
-    top:-0.4rem;
+.five {
+  padding: 0.3rem;
+  left: 6.4rem;
+  top: -0.4rem;
 }
 
-.six{
-    padding: 0.5rem;
-    left: 10rem;
-    top:0.7rem;
+.six {
+  padding: 0.5rem;
+  left: 10rem;
+  top: 0.7rem;
 }
 
-.child i{
-    font-size: 2rem;
-    color: var(--primary-color);
+.child i {
+  font-size: 2rem;
+  color: var(--primary-color);
 }
 
 .img-badge {
-    width: 4rem;
-    height: 4.2rem;
-    border: 1.1px solid black;
-    margin: -1rem 1.5rem;
-    object-fit:cover;
-  }
+  width: 4rem;
+  height: 4.2rem;
+  border: 1.1px solid black;
+  margin: -1rem 1.5rem;
+  object-fit: cover;
+}
 
-  .type-one{
-      margin-top: 1rem;
-      border-radius: 50%;
-  }
-  
+.child .type-one {
+  margin-top: 1rem;
+  border-radius: 50%;
+}
