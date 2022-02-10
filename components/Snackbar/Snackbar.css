@@ -12,13 +12,13 @@
   border-radius: 1rem;
   box-shadow: 3px 4px 12px 2px var(--snackbar);
 }
-
-.type-one{
+  
+.type-one-snackbar{
   margin-top: 2rem;
   text-align: center;
 }
 
-button{
+.type-one-snackbar button{
   background-color: var(--primary-color);
   color: var(--secondary-color);
   padding: 0.5rem 1.5rem;
@@ -26,15 +26,15 @@ button{
   cursor: pointer;
 }
 
-button:hover{
+.type-one-snackbar button:hover{
   opacity: 0.7;
 }
 
-.bottom {
+.type-one-snackbar .bottom {
   bottom: 2rem;
 }
 
-.top {
+.type-one-snackbar .top {
   top: 2rem;
 }
 
