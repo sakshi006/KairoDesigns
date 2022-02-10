@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Overlock&family=Poppins:ital,wght@0,300;0,400;1,200&display=swap');
 
-@import './css/components.css';
-@import './css/main.css';
+/* @import './css/components.css';
+@import './css/main.css'; */
 @import './components/Alert/Alert.css';
 @import './components/Avatar/Avatar.css';
 @import './components/Badges/Badges.css';
