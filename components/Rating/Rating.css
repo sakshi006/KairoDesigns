@@ -36,17 +36,10 @@
     color: var(--star);
 }
 
-.type-one-rating .far{
+.type-one-rating .lg{
     font-size: 2.4rem;
     margin: 0rem 1.3rem;
 }
-
-.type-one-rating .fas{
-    font-size: 2.4rem;
-    margin: 0rem 1.3rem;
-}
-
-
 
 .fa-grin-stars:hover{
   color: var(--positive-color);
