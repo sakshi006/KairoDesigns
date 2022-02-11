@@ -12,7 +12,10 @@
    line-height: 2rem;
 }
 
-.list ol,ul{
+.list ol{
+    margin-top: 2rem;
+}
+.list ul{
     margin-top: 2rem;
 }
 
