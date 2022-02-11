@@ -110,14 +110,14 @@
 
 /* badge card */
 
-.cardcom .badge {
+.cardcom .card-badge {
   padding: 1rem;
   background-color: white;
   border-radius: 0;
   position: relative;
 }
 
-.cardcom .badge:hover {
+.cardcom .card-badge:hover {
   background-color: var(--hover);
 }
 .cardcom .product-detail > p {
@@ -125,7 +125,7 @@
   margin-top: 0.5rem;
 }
 
-.cardcom .badge > .update-badge {
+.cardcom  .update-badge {
   position: absolute;
   background-color: var(--positive-color);
   font-size: 0.6rem;
