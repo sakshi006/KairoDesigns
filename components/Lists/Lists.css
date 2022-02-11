@@ -8,11 +8,11 @@
     margin-left: 2rem;
 }
 
-li{
+.list li{
    line-height: 2rem;
 }
 
-ol,ul{
+.list ol,ul{
     margin-top: 2rem;
 }
 
