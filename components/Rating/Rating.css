@@ -13,6 +13,14 @@
   border-radius: 0.4rem;
 }
 
+.type-one-rating .negative{
+    background-color: var(--negative-color);
+}
+
+.type-one-rating .positive{
+    background-color: var(--positive-color);
+}
+
 .rating .fas{
     font-size: 0.9rem;
 }
