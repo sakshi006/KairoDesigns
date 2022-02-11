@@ -189,7 +189,7 @@
   margin: 0;
 }
 
-.cardcom button {
+.cardcom .button {
   margin: 0.5rem;
   border: 1px dashed var(--disable-color);
   padding: 0.4rem;
