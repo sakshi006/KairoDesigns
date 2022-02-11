@@ -120,13 +120,13 @@
 .cardcom .card-badge:hover {
   background-color: var(--hover);
 }
-.cardcom .product-detail > p {
+.card .product-detail > p {
   font-size: medium;
   padding: 0rem;
   margin: 0rem;
 }
 
-.cardcom  .update-badge {
+.card  .update-badge {
   position: absolute;
   background-color: var(--positive-color);
   font-size: 0.6rem;
@@ -134,38 +134,38 @@
   top: 3rem;
 }
 
-.cardcom .rating {
+.card .rating {
   background-color: var(--positive-color);
   font-size: x-small;
 }
 
-.cardcom .rating > i {
+.card .rating > i {
   padding: 0;
   margin: 0;
 }
 
-.cardcom .price {
+.card .price {
   font-size: medium;
   padding-top: 0.5rem;
 }
-.cardcom .old-price {
+.card .old-price {
   text-decoration: line-through;
   color: var(--disable-color);
 }
 
-.cardcom .discount {
+.card .discount {
   color: var(--positive-color);
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.cardcom .footer {
+.card .footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 0.3rem;
 }
 
-.cardcom .card-image {
+.card .card-image {
   height: 22rem;
 }
 
