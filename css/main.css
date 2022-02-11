@@ -8,6 +8,7 @@
 
 :root{
     --primary-color: #A5668B;
+    --logo-color:#8a4f71;
     --secondary-color:#F2D7EE;
     --alternate-color:#630000;
     --positive-color: rgb(3, 209, 3);
@@ -42,7 +43,7 @@ body{
       width: 100%;
       left: 0;
       z-index: 1;
-      background-color: var(--secondary-color);
+      background-color: var(--logo-color);
   }
   .logo a{
       color: var(--primary-color) !important;
