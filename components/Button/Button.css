@@ -24,7 +24,7 @@
     cursor: pointer;
 }
 
-.icon{
+.button .icon{
     border: none;
     margin: 0rem 2rem;
     font-size: xx-large;
@@ -32,7 +32,7 @@
     cursor: pointer;
 }
 
-.icon:hover{
+.button .icon:hover{
     opacity: 0.7;;
 }
 
