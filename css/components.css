@@ -55,7 +55,7 @@ h4 {
   text-align: center;
 }
 
-footer {
+.page-footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -68,7 +68,7 @@ footer {
   animation: mymove 1s infinite;
 }
 
-footer .far {
+.page-footer .far {
   margin: 0rem 0.5rem !important;
   font-size: initial !important;
   color: initial !important;
