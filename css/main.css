@@ -1,170 +1,175 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Overlock&family=Poppins:ital,wght@0,300;0,400;1,200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Overlock&family=Poppins:ital,wght@0,300;0,400;1,200&display=swap");
 
-
-*{
-    margin: 0rem;
-    padding: 0rem;
+* {
+  margin: 0rem;
+  padding: 0rem;
 }
 
-:root{
-    --primary-color: #A5668B;
-    --logo-color:#8a4f71;
-    --secondary-color:#F2D7EE;
-    --alternate-color:#630000;
-    --positive-color: rgb(3, 209, 3);
-    --negative-color: rgb(231, 0, 0);
-    --disable-color: rgb(196, 192, 192);
-    --hover: rgb(248, 248, 248);
-    --snackbar : rgb(36, 49, 79);
-    --star: rgb(255, 187, 0);
-    --lightblue : rgb(118, 207, 240);
-    --pink:rgb(255, 192, 229);
-    --dk-pink:rgb(251, 111, 181);
-    --red:rgb(255, 137, 137);
-    --dk-red:rgb(206, 21, 21);
-    --blue:rgb(176, 229, 255);
-    --dk-blue:rgb(104, 197, 255);
-    --purple:rgb(223, 169, 223);
-    --dk-purple:rgb(202, 64, 202);
+:root {
+  --primary-color: #a5668b;
+  --logo-color: #8a4f71;
+  --secondary-color: #f2d7ee;
+  --alternate-color: #630000;
+  --positive-color: rgb(3, 209, 3);
+  --negative-color: rgb(231, 0, 0);
+  --disable-color: rgb(196, 192, 192);
+  --hover: rgb(248, 248, 248);
+  --snackbar: rgb(36, 49, 79);
+  --star: rgb(255, 187, 0);
+  --lightblue: rgb(118, 207, 240);
+  --pink: rgb(255, 192, 229);
+  --dk-pink: rgb(251, 111, 181);
+  --red: rgb(255, 137, 137);
+  --dk-red: rgb(206, 21, 21);
+  --blue: rgb(176, 229, 255);
+  --dk-blue: rgb(104, 197, 255);
+  --purple: rgb(223, 169, 223);
+  --dk-purple: rgb(202, 64, 202);
 }
 
-body{      
-    font-family: 'Overlock', cursive;
-  }
-
-  nav{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1.5rem;
-      overflow: hidden;
-      position: fixed;
-      top: 0;
-      width: 100%;
-      left: 0;
-      z-index: 1;
-      background-color: var(--secondary-color);
-  }
-  .logo a{
-      color: var(--logo-color) !important;
-      font-weight: bold;
-  }
-nav ul{
-    display: flex;
-    text-decoration: none;
+body {
+  font-family: "Overlock", cursive;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+  background-color: var(--secondary-color);
+}
+.logo a {
+  color: var(--logo-color) !important;
+  font-weight: bold;
+}
+nav ul {
+  display: flex;
+  text-decoration: none;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-right: 3rem;
+}
+
+/* navbar responsiveness */
+@media screen and (max-width: 480px) {
   nav ul li {
-      list-style-type: none;
-      margin-right: 3rem;
+    margin-right: 2rem;
   }
-
-  /* navbar responsiveness */
-  @media screen and (max-width:480px)
-  {
-    nav ul li {
-        margin-right: 2rem;
-    }
 }
 
-  @media screen and (max-width:416.60px)
-  {
-    nav ul li {
-        margin-right: 1.5rem;
-    }
+@media screen and (max-width: 416.6px) {
+  nav ul li {
+    margin-right: 1.5rem;
+  }
 }
-  @media screen and (max-width:393.60px)
-  {
-      nav ul li:nth-child(3){
-          display: none;
-      }
-    nav ul li {
-        margin-right:1.5rem;
-        padding: auto 0rem;
-    }
-  
+@media screen and (max-width: 393.6px) {
+  nav ul li:nth-child(3) {
+    display: none;
   }
+  nav ul li {
+    margin-right: 1.5rem;
+    padding: auto 0rem;
+  }
+}
 
-  .header span{
-      color: var(--primary-color);
-  }
+.header span {
+  color: var(--primary-color);
+}
 
-  .content{
-    display: block;
-    margin: auto;
-    max-width: 90%;
-  }
-  .content a{
-      font-size: large;
-      text-decoration: none;
-      color: black;
-  }
+.content {
+  display: block;
+  margin: auto;
+  max-width: 90%;
+}
+.content a {
+  font-size: large;
+  text-decoration: none;
+  color: black;
+}
 
-  nav a:hover{
-    color: var(--primary-color);
-    font-weight: bold;
-  }
+nav a:hover {
+  color: var(--primary-color);
+  font-weight: bold;
+}
 
-  main{
-      box-sizing: border-box;
-      display: block;
-      text-align: center;
-      margin: auto;
-      width: 60%;
-      padding: 1rem;
-      line-height: 3rem;
-      margin-top: 5rem;
-      font-size: 2rem;
-  }
-.main_btn{
+main {
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  padding: 1rem;
+  line-height: 3rem;
+  margin-top: 5rem;
+  font-size: 2rem;
+}
+.main_btn {
+  margin-top: 2rem;
+}
+.btn {
+  padding: 0.5rem;
+  margin: 1rem;
+  border-radius: 0.3rem;
+  box-shadow: 0rem 0.2rem 0.4rem 0rem grey;
+  color: var(--secondary-color);
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+  transition: 0.7s;
+  color: var(--primary-color);
+}
+
+.btn_primary {
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+.side-nav ul li a {
+  color: var(--primary-color);
+}
+
+#active {
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-shadow: 4px 4px 0px var(--secondary-color);
+}
+
+.main-img {
+  margin: 0.8rem auto 0rem auto;
+  width: 15rem;
+  height: 15rem;
+}
+
+.install {
+  text-align: center;
+  margin-top: 6rem !important;
+  max-width: 100%;
+  margin: auto;
+}
+
+.install span {
+  color: var(--primary-color);
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.gif-example {
+  margin: 2rem auto 8rem;
+  text-align: center;
+}
+
+.gifs {
+    border: 1px solid var(--alternate-color);
     margin-top: 2rem;
+  width: 90%;
+  box-shadow: 0.2rem 0.2rem 0.4rem 0.2rem grey;
 }
-.btn{
-    padding: .5rem;
-    margin: 1rem;
-    border-radius: 0.3rem;
-    box-shadow: 0rem 0.2rem 0.4rem 0rem  grey;
-    color: var(--secondary-color);
-  }
-
-  .btn:hover{
-      background-color: var(--secondary-color);
-      transition: 0.7s;
-      color: var(--primary-color);
-  }
-
-  .btn_primary{
-      color: var(--secondary-color);
-      background-color: var(--primary-color);
-  }
-  
-  .side-nav ul li a{
-      color: var(--primary-color);
-  }
-
-  #active{
-      font-weight: bold;
-      font-size: 1.3rem;
-      text-shadow: 4px 4px 0px  var(--secondary-color);
-  }
-
-  .main-img{
-      margin: 0.8rem auto 0rem auto;
-      width: 15rem;
-      height: 15rem;      
-  }
-
-
-
-  .install{
-      text-align: center;
-      margin-top: 6rem !important;
-      max-width: 100%;;
-      margin: auto;
-  }
-
-  .install span{
-      color: var(--primary-color);
-      font-size: x-large;
-      font-weight: bold;
-  }
