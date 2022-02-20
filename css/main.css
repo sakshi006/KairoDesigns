@@ -8,6 +8,7 @@
 
 :root{
     --primary-color: #A5668B;
+    --logo-color:#8a4f71;
     --secondary-color:#F2D7EE;
     --alternate-color:#630000;
     --positive-color: rgb(3, 209, 3);
@@ -45,7 +46,7 @@ body{
       background-color: var(--secondary-color);
   }
   .logo a{
-      color: var(--primary-color) !important;
+      color: var(--logo-color) !important;
       font-weight: bold;
   }
 nav ul{
