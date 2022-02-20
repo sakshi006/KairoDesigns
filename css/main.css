@@ -162,47 +162,50 @@ main {
   font-weight: bold;
 }
 
+/* how to use */
+
 .gif-example {
   margin: 2rem auto 8rem;
   text-align: center;
 }
 
 .gifs {
-    border: 1px solid var(--alternate-color);
-    margin-top: 2rem;
+  border: 1px solid var(--alternate-color);
+  margin-top: 2rem;
   width: 90%;
   box-shadow: 0.2rem 0.2rem 0.4rem 0.2rem grey;
 }
 
-
+@media screen and (max-width: 1020px) {
+  .gifs {
+    width: 100%;
+  }
+}
 
 /* foot */
 
-
-
 .quiz-foot {
-    background-color: var(--secondary-color);
-    padding: 0.5rem;
-    margin-top: 2rem;
-    font-weight: bold;
-    font-size: large;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-  }
-  
-  
-  .social-media-links {
-    display: inline-flex;
-  }
-  
-  .list-item-inline {
-    list-style-type: none;
-    margin: 0rem 0.5rem;
-    text-align: center;
-  }
-  
-  .social-media-links a{
+  background-color: var(--secondary-color);
+  padding: 0.5rem;
+  margin-top: 2rem;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}
+
+.social-media-links {
+  display: inline-flex;
+}
+
+.list-item-inline {
+  list-style-type: none;
+  margin: 0rem 0.5rem;
+  text-align: center;
+}
+
+.social-media-links a {
   text-decoration: none;
   color: var(--other);
 }
