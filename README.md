@@ -1,5 +1,5 @@
 # KairoDesigns
-Component Library Using HTML/CSS
+Component Library Using HTML/CSS.<br/>
 The website is responsive and can be accessed using devices of various screen size.
 
 Demonstration Video for individual components is also available for reference.
@@ -86,7 +86,7 @@ You will find the following types of _Badge_ on https://kairodesigns.netlify.app
 CSS buttons refer to styled HTML buttons that developers customize to match their website designs. You can manipulate the colors, text sizes, padding, and even change styling properties when buttons enter different states.
 
 
-You will find the following types of _Button_ on hhttps://kairodesigns.netlify.app/components/button/button
+You will find the following types of _Button_ on https://kairodesigns.netlify.app/components/button/button
 
 - Primary Buttons
 - Floating Button
