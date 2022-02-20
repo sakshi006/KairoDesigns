@@ -221,7 +221,7 @@ You will find the following types of _Grid_ on https://kairodesigns.netlify.app/
 
 ---
 
-![KairoDesigns gif](assets/exampleGifs/Project demo.gif)
+![KairoDesigns-gif](assets/exampleGifs/Project demo.gif)
 
 ---
 
