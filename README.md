@@ -221,6 +221,10 @@ You will find the following types of _Grid_ on https://kairodesigns.netlify.app/
 
 ---
 
+![KairoDesigns gif](assets/exampleGifs/Project demo.gif)
+
+---
+
 ## 👨‍💻 Connect with me
 
 <a href="https://twitter.com/Sakshi51351126"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
