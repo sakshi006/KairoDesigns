@@ -144,9 +144,10 @@ main {
 }
 
 .main-img {
-  margin: 0.8rem auto 0rem auto;
-  width: 15rem;
-  height: 15rem;
+  margin:auto;
+  width: 90%;
+  height: 90%;
+  margin-top: 6rem;
 }
 
 .install {
