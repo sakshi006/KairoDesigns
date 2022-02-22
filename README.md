@@ -41,6 +41,7 @@ To get the Font Awesome Icons, import the following link tag of your project.
 - [Rating](#rating)
 - [Snackbar/Toast](#toast)
 - [Grids](#grid)
+- [Slider](#slider)
 
 ---
 
@@ -230,8 +231,8 @@ CSS range sliders are a slider with a handle that allows users to select a certa
 You will find the following types of _Sliders_ on https://kairodesigns.netlify.app/components/slider/slider
 
 
-- Two Columns Grid
-- Three Columns Grid
+- Default Range Slider
+- Squared Range Slider
 
 ---
 
