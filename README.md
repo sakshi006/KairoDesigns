@@ -219,11 +219,27 @@ You will find the following types of _Grid_ on https://kairodesigns.netlify.app/
 - Two Columns Grid
 - Three Columns Grid
 
+
+---
+
+
+### Sliders
+
+CSS range sliders are a slider with a handle that allows users to select a certain value from a limited range. CSS range sliders are useful for: budgets. prices.
+
+You will find the following types of _Sliders_ on https://kairodesigns.netlify.app/components/slider/slider
+
+
+- Two Columns Grid
+- Three Columns Grid
+
 ---
 
 ![KairoDesigns-gif](https://github.com/sakshi006/KairoDesigns/blob/development/assets/exampleGifs/Project%20demo.gif)
 
 ---
+
+
 
 ## 👨‍💻 Connect with me
 
